@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.1" Author="lalalogitech">
+	<MainWindow>
+		<mnuFile>ملف</mnuFile>
+		<mnuFileExit>خروج</mnuFileExit>
+		<mnuHelp>تعليمات</mnuHelp>
+		<mnuHelpDocumentation>الوثائق...</mnuHelpDocumentation>
+		<mnuHelpPurchase>شراء نسخة برو...</mnuHelpPurchase>
+		<mnuHelpEnterCode>أدخل رمز التسجيل...</mnuHelpEnterCode>
+		<mnuHelpAbout>حول...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO الصفحة الرئيسية...</mnuHomePage>
+		<menuPreferences>التفضيلات...</menuPreferences>
+		<newVersionAvailable>متوفر AnyToISO %1</newVersionAvailable>
+		<newVersionUpdate>التحديث</newVersionUpdate>
+		<buttonStop>إيقاف</buttonStop>
+		<tabConvertExtract>
+			<Name>استخراج الملف/وتحويلة إلى ايزو</Name>
+			<SourceFileName>مصدر ملف الصورة :</SourceFileName>
+			<ConvertToISO>تحويل إلى صورة ايزو:</ConvertToISO>
+			<ExtractToFolder>استخراج إلى المجلد:</ExtractToFolder>
+			<buttonOpenImage>افتح الصورة ...</buttonOpenImage>
+			<buttonOpenImageText>افتح ملف صورة قرص مدمج /ديفيدي</buttonOpenImageText>
+			<AllSupportedFiles>كل الملفات المعتمدة</AllSupportedFiles>
+			<buttonOpenISO>افتح ايزو...</buttonOpenISO>
+			<buttonOpenISOText>اختر ملف ناتج ايزو</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO (*.iso) ملفات</buttonOpenISOFilter>
+			<buttonOpenFolder>حدد الحافظة...</buttonOpenFolder>
+			<buttonOpenFolderText>افتح مجلد الوجهة</buttonOpenFolderText>
+			<buttonConvert>تحويل</buttonConvert>
+			<buttonExtract>استخراج</buttonExtract>
+			<labelFileSize>حجم الملف</labelFileSize>
+			<labelFileFormat>الصيغة</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt; افتح &lt;/b&gt; أو &lt;b&gt; اسحب &lt;/b&gt; صورة للتحويل أو الاستخراج</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>قرص مضغوط او قرص ديفيدي إلى ايزو</Name>
+			<SourceDrive>مصدر محرك الأقراص:</SourceDrive>
+			<OutputISO>ملف وجهة ايزو:</OutputISO>
+			<checkCreateBinCue>Create BIN/CUE image</checkCreateBinCue>
+			<buttonRefresh>انعاش</buttonRefresh>
+			<buttonBrowseISO>استعراض</buttonBrowseISO>
+			<NoDiskInserted>لم يتم ادخال قرص مدمج / قرص ديفيدي</NoDiskInserted>
+			<buttonMakeISO>صنع ايزو</buttonMakeISO>
+			<buttonMakeBinCue>Create BIN/CUE image</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>Please select ISO or BIN/CUE image file</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO Files</isoFilesFilter>
+			<binCueSheetFilter>BIN Files (with CUE sheet)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>المجلد إلى ايزو</Name>
+			<SourceFolder>مصدر المجلد:</SourceFolder>
+			<DestinationISO>ملف وجهة ايزو:</DestinationISO>
+			<VolumeLabel>تسمية وحدة التخزين:</VolumeLabel>
+			<buttonBrowseForFolder>استعراض للمجلد...</buttonBrowseForFolder>
+			<buttonChooseISO>اختيار ايزو...</buttonChooseISO>
+			<buttonOptions>خيارات...</buttonOptions>
+			<buttonMakeISO>صنع ايزو</buttonMakeISO>
+			<ISOCreationOptions>خيارات إنشاء ايزو</ISOCreationOptions>
+			<Settings>إعدادات</Settings>
+			<FileSystemsInsideISO>أنظمة الملف:</FileSystemsInsideISO>
+			<buttonDefault>افتراضي</buttonDefault>
+			<ISO9660Option1>8.3 DOS file names (11)</ISO9660Option1>
+			<ISO9660Option2>(الأسماء الأطول (180</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>(الأسماء القياسية (64</JolietOption1>
+			<JolietOption2>(الأسماء الطويلة (110</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>بعد الشراء&lt;/a&gt;&lt;a href="unlock"&gt; أنت ستحصل على رمز التسجيل&lt;/a&gt;تشتري اصدار المحترف &lt;a href="purchase"&gt; (بحدود 870 ميغابايت). لكي يعمل بالملفات الأكبر (ديفيدي وأكثر) أنت يجب أن&lt;/b&gt;صورة قرص مدمج فقط &lt;b&gt; مع AnyToISO تعمل النسخة المخففة ل</LiteVersionLimitText>
+		<buttonPurchasePro>شراء نسخة محترف...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>أدخل رمز التسجيل</Caption>
+		<EnterKeyToUpgradeText>رجاء إدخل تفاصيل تسجيلك للترقية إلى نسخة اي ايزو محترف</EnterKeyToUpgradeText>
+		<RegName>اسم التسجيل:</RegName>
+		<RegCode>رمز التسجيل:</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>AnyToISO حول</Caption>
+		<Website>موقع الويب:</Website>
+		<Support>الدعم:</Support>
+		<RunningAs>تشغيل البرنامج باسم:</RunningAs>
+		<CopyRight>برنامج الحاسوب هذا محمي بقانون حقوق النشر والمعاهدات الدولية. المضاعفة الغير مخولة أو توزيع هذا البرنامج، أو أي جزء منه، قد يؤدي إلى عقوبات مدنية أو إجرامية حادة تمت الترجمة بموقع اليزيد للحاسبات</CopyRight>
+		<buttonPurchasePro>شراء نسخة برو...</buttonPurchasePro>
+	</AboutDialog>
+	<NewVersionDialog>
+		<Caption>AnyToISO تحديث</Caption>
+		<NewVersionAvailable>%1. هل تريد تحميله الآنAnyToISO يتوفر إصدار جديد من</NewVersionAvailable>
+		<CurrentVersion>اصدارك الحالي: %1</CurrentVersion>
+		<WhatsNew>ما هو جديد:</WhatsNew>
+		<LearnMore>تعلم أكثر</LearnMore>
+		<buttonDownload>التحميل</buttonDownload>
+	</NewVersionDialog>
+	<PreferencesDialog>
+		<Caption>التفضيلات</Caption>
+		<Language>لغة الواجهة:</Language>
+		<CheckForNewVersions>تحقق من وجود اصدار جديد عند بدء التشغيل</CheckForNewVersions>
+		<ShellExtension>كامل صدفة مستكشف نوافذ</ShellExtension>
+		<ShellExtensionInfo>اضف قوائم السياق لمحركات الأقراص الضوئية والمجلدات والملفات من التنسيقات المعتمدة.</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>يتطلب كلمة السر</Caption>
+		<FileIsProtected>تم تشفير الملف. لفك شفرتة الرجاء إدخال كلمة السر:</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>تحذير</Warning>
+		<Question>سؤال</Question>
+		<NotEnoughDiskSpace>هل ترغب في المضي قدما \n\n يبدو لا توجد مساحة كافية %1ى القرص (فقط 1%) على محرك الأقراص المحدد</NotEnoughDiskSpace>
+		<ISOAlreadyExists>موجود بالفعل، هل ترغب في الكتابة فوقه \n%1\n وجهة ملف ايزو</ISOAlreadyExists>
+		<FolderAlreadyExists>يوجد بالفعل، هل ترغب في الكتابة فوق كافة الملفات الموجودة بنفس الاسم\n%1\n المجلد الوجهة؟</FolderAlreadyExists>
+		<RestartProgram>هل ترغب في القيام بذلك الآن \n\n لإكمال التسجيل يجب عليك إعادة تشغيل البرنامج؟</RestartProgram>
+		<CancelOperation>هل أنت متأكد تريد إنهاء العملية الحالية؟</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>التحقق من مصدر الصورة...</CheckingSourceImage>
+		<Converting>تحويل...</Converting>
+		<Extracting>استخراج...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>افتح...</Unpacking>
+		<ConvertingToTemporaryISO>تحويل إلى ملف ايزو مؤقت...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 كتب</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>صورة ايزو (نوع%1) للعثور على</ISOImageTypeFound>
+		<CannotOpenSourceFile>لا يمكن فتح مصدر الملف</CannotOpenSourceFile>
+		<CannotOpenDestFile>لا يمكن فتح وجهة الملف</CannotOpenDestFile>
+		<OperationTerminated>العملية أنهيت من قبل المستخدم</OperationTerminated>
+		<OperationCompleted>عملية مكتملة</OperationCompleted>
+		<ClickToOpenISOInExplorer>انقر&lt;a href="_open_local_file"&gt;هنا&lt;/a&gt;لفتح ملف ناتج ايزو في المستكشف</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>انقر&lt;a href="_open_local_file"&gt;هنا&lt;/a&gt;لتحميل ايزو في المكتشف</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>انقر&lt;a href="_open_local_file"&gt;هنا&lt;/a&gt;لفتح مجلد الناتج</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>فتح جهاز وسائط الإعلام، الرجاء الانتظار...</OpeningDevice>
+			<TotalDataSize>حجم البيانات الكلي %1</TotalDataSize>
+			<CreatingISO>إنشاء ايزو...</CreatingISO>
+			<CannotCreateFromAudio>أنت لا تستطيع قرص خلق لصورة ايزو متعدد الجلسات أو قرص صوتي الرجاء الاتصال بالدعم للمساعدة</CannotCreateFromAudio>
+			<PleaseUseBinCue>Please use BIN/CUE image for such disks</PleaseUseBinCue>
+			<BlankDiskDetected>إكتشف قرص مدمج/قرص ديفيدي فارغ</BlankDiskDetected>
+			<DiskNotReady>قرص مضغوط أو قرص ديفيدي غير جاهز</DiskNotReady>
+			<CannotOpenDevice>(لا يمكن فتح جهاز (%1</CannotOpenDevice>
+			<ReadError>قراءة خطأ%1، الرجاء الاتصال بالدعم للمساعدة</ReadError>
+			<DeviceIsCopyProtected>هذه الأداة نسخة - محمىة والقطاع مشفر. لا يستطيع الإستمرار</DeviceIsCopyProtected>
+			<ISOCreationFailed>فشل إنشاء ايزو</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE image creation failed</BinCueCreationFailed>
+			<CannotReadDiskToc>Failed to read TOC (table of contents) of the disk</CannotReadDiskToc>
+			<CannotReadDisk>Cannot read disk, error: %1</CannotReadDisk>
+			<DiskNotPresent>Disk not present or unknown media type</DiskNotPresent>
+			<NoTracksOnDisk>There are no tracks on the disk, it's probably blank</NoTracksOnDisk>
+			<mediaType>Media type: %1</mediaType>
+			<TrackLength>Track length is %1 sectors</TrackLength>
+			<TracksCount>Tracks count: %1</TracksCount>
+			<WritingTrack>Writing track %1, track length is %2 sectors</WritingTrack>
+			<DiskReadingStopped>Reading stopped at %1</DiskReadingStopped>
+			<TrackReadingStopped>Reading stopped at %1, resuming with next track</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>تفحص مصدر الدليل...</ScanningFolder>
+			<DirectorySize>%1حجم الدليل</DirectorySize>
+			<WritingISOFile>كتابة ملف ايزو...</WritingISOFile>
+			<SkippingBigFile>تخطي الملف '%1'. أكبر من 4 غيغا بايت</SkippingBigFile>
+			<SkippingFile>'تخطي الملف '%1</SkippingFile>
+			<BigFileWarning>ISO 9660 الملف '%1' هو أكبر من 4 ق ب ، ولن تكون مرئية في نظام الملفات</BigFileWarning>
+			<NestedDirectoriesLimitWarning>بنية الدليل أعمق من مستويات%1، بعض الملفات والمجلدات سيتم تخطي.</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>غير قادر على فتح الملف '%1' لوصول القراءة.</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>يبدو أن الصورة صورة القرص المضغوط الصوتي %1، لا لا يمكن تحويلها إلى ايزو</AudioCDWarning>
+			<NotValidImage>خطأ: هذا ليس صورة قرص مضغوط/قرص ديفيدي صالح</NotValidImage>
+			<CannotFindSignature>خطأ: لا يمكن العثور على التوقيع ايزو_9660، وصل إلى حد 5 ميغابايت</CannotFindSignature>
+			<MultiSessionImageDetected>Multi-session disk image detected</MultiSessionImageDetected>
+			<MultiSessionNotSupported>The disk image is a multi-session disk image. Such images are not supported.</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>NRG parsing error, please contact support for assistance</NrgParsingError>
+			<NoSessionsFound>No NRG sessions detected, please contact support for assistance</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>تحميل الصورة...</LoadingImage>
+			<ChooseISOFS>هناك عدة أنظمة للملف في صورة ايزو، رجاء إختر أحدهم للاستخراج:</ChooseISOFS>
+			<ChooseISOFSCaption>إختر نظام الملف</ChooseISOFSCaption>
+			<ImageFound>%1 صورة وجدت</ImageFound>
+			<InvalidISO>الملف ليس صورة ايزو صحيح أو لم يدعم حاليا</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>لتخفيف الضغط zlib استخدام</UsingZlib>
+			<UsingLZMA>Igor Pavlov تخفيف ضغط من قبل Lzma باستخدام</UsingLZMA>
+			<MixedImageFound>العثور على نوع الصورة مختلطة%1، الفتح إلى ملف مؤقت...</MixedImageFound>
+			<UnpackingImage>فتح الصورة...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>Debian (Ubuntu) Linux archive الملف ليس صحيح</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>حزمة%1 مفتوحة</PackageOpened>
+			<DecompressingPayload>تخفيف ضغط %1 حمولة إلى ملف مؤقت...</DecompressingPayload>
+			<UnpackingArchive>أفتح الأرشيف...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>DMG to HFS+ ISO تحويل...</ConvertingDmgToISO>
+			<Writing>%1 للكتابة...</Writing>
+			<ExtractingMainPartition>الرئيسي إلى ملف مؤقت، يمكن أن يستغرق هذا بعض الوقت--الرجاء الانتظارDMG استخراج قسم ...</ExtractingMainPartition>
+			<NoVolumeFound>أي وحدة تخزين وجدت، تبحث عن نظام الملفات HFS +...</NoVolumeFound>
+			<ExtractingVolume>(حجم (%1 DMG استخراج</ExtractingVolume>
+			<CorruptedOrPasswordProtected>خطأ: تالفة أو محمية بكلمة سر DMG الصورة</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>غير صالح أو نسخة فورية مكسورةPDI الصورة</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>أسلوب الضغط: بلا</CompressionNone>
+			<WarningPassword>تعيين كلمة سر غير صالحة ستجعل ملف الإخراج غير صالح</WarningPassword>
+			<ImageIsSegmented>مقطع ISZ الملف</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>موافق</buttonOk>
+		<buttonCancel>الغاء الامر</buttonCancel>
+		<buttonClose>اغلاق</buttonClose>
+		<ProVersion>الإصدار برو</ProVersion>
+		<LiteVersion>النسخة المخففة</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>"%s" تحويل إلى</ConvertToISO>
+		<ConvertToISOInfo>تحويل ملف صورة القرص إلى صيغة ايزو</ConvertToISOInfo>
+		<Extract>"%s" استخراج</Extract>
+		<ExtractInfo>استخراج ملف صورة القرص</ExtractInfo>
+		<CreateISOFromFolder>"%s" إنشاء</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>إنشاء صورة ايزو من هذا المجلد باستخدام الخيارات الافتراضية</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>مع خيارات "%s" إنشاء...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>إنشاء صورة ايزو من هذا المجلد مع تحديد خيارات نظام الملفات وتسمية وحدة التخزين</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>إنشاء صورة ايزو من هذا القرص</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>إنشاء صورة ايزو من القرص الضوئي المحدد</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>Create BIN/CUE image of this disk</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>Create BIN (raw) image of a selected optical disk and its corresponding CUE sheet file</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

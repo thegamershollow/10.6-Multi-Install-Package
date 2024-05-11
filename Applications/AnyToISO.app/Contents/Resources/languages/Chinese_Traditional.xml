@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="3.3" Author="boss.king">
+	<MainWindow>
+		<mnuFile>文件</mnuFile>
+		<mnuFileExit>退出</mnuFileExit>
+		<mnuHelp>幫助</mnuHelp>
+		<mnuHelpDocumentation>文檔...</mnuHelpDocumentation>
+		<mnuHelpPurchase>購買專業版...</mnuHelpPurchase>
+		<mnuHelpEnterCode>輸入註冊碼...</mnuHelpEnterCode>
+		<mnuHelpAbout>關於...</mnuHelpAbout>
+		<mnuHomePage>AnyToISO主頁...</mnuHomePage>
+		<menuPreferences>參數設置...</menuPreferences>
+		<newVersionAvailable>AnyToISO %1 可更新！</newVersionAvailable>
+		<newVersionUpdate>更新</newVersionUpdate>
+		<buttonStop>停止</buttonStop>
+		<tabConvertExtract>
+			<Name>文件提取/轉換為ISO</Name>
+			<SourceFileName>源鏡像文件：</SourceFileName>
+			<ConvertToISO>轉換為ISO鏡像：</ConvertToISO>
+			<ExtractToFolder>提取到文件夾：</ExtractToFolder>
+			<buttonOpenImage>打開鏡像...</buttonOpenImage>
+			<buttonOpenImageText>打開CD/DVD鏡像文件</buttonOpenImageText>
+			<AllSupportedFiles>所有支援文件</AllSupportedFiles>
+			<buttonOpenISO>打開ISO...</buttonOpenISO>
+			<buttonOpenISOText>選擇目標ISO文件</buttonOpenISOText>
+			<buttonOpenISOFilter>ISO文件(*.iso)</buttonOpenISOFilter>
+			<buttonOpenFolder>選擇文件夾...</buttonOpenFolder>
+			<buttonOpenFolderText>打開目標文件夾</buttonOpenFolderText>
+			<buttonConvert>轉換！</buttonConvert>
+			<buttonExtract>提取！</buttonExtract>
+			<labelFileSize>文件大小</labelFileSize>
+			<labelFileFormat>格式</labelFileFormat>
+			<labelOpenOrDragFile>&lt;b&gt;打開&lt;/b&gt; 或 &lt;b&gt;拖拽&lt;/b&gt; 一個鏡像文件進行轉換或提取</labelOpenOrDragFile>
+		</tabConvertExtract>
+		<tabDiskToISO>
+			<Name>CD/DVD光碟轉ISO</Name>
+			<SourceDrive>源分區：</SourceDrive>
+			<OutputISO>目標ISO文件：</OutputISO>
+			<checkCreateBinCue>創建BIN/CUE鏡像</checkCreateBinCue>
+			<buttonRefresh>刷新</buttonRefresh>
+			<buttonBrowseISO>瀏覽...</buttonBrowseISO>
+			<NoDiskInserted>請插入CD/DVD光碟</NoDiskInserted>
+			<buttonMakeISO>製作ISO</buttonMakeISO>
+			<buttonMakeBinCue>創建BIN/CUE鏡像</buttonMakeBinCue>
+			<chooseISOOrBinCueImage>請選擇ISO or BIN/CUE鏡像文件</chooseISOOrBinCueImage>
+			<isoFilesFilter>ISO文件</isoFilesFilter>
+			<binCueSheetFilter>BIN 文件(含CUE)</binCueSheetFilter>
+		</tabDiskToISO>
+		<tabFolderToISO>
+			<Name>文件夾轉ISO</Name>
+			<SourceFolder>源目錄：</SourceFolder>
+			<DestinationISO>目標ISO文件：</DestinationISO>
+			<VolumeLabel>卷標：</VolumeLabel>
+			<buttonBrowseForFolder>瀏覽文件夾...</buttonBrowseForFolder>
+			<buttonChooseISO>選擇ISO...</buttonChooseISO>
+			<buttonOptions>選項...</buttonOptions>
+			<buttonMakeISO>製作ISO</buttonMakeISO>
+			<ISOCreationOptions>ISO創建選項</ISOCreationOptions>
+			<Settings>設置</Settings>
+			<FileSystemsInsideISO>文件系統：</FileSystemsInsideISO>
+			<buttonDefault>默認</buttonDefault>
+			<ISO9660Option1>8.3 DOS 文件名 (11)</ISO9660Option1>
+			<ISO9660Option2>長文件名 (180)</ISO9660Option2>
+			<ISO9660Option3>ISO 9660:1999</ISO9660Option3>
+			<JolietOption1>標準名稱 (64)</JolietOption1>
+			<JolietOption2>長名稱 (110)</JolietOption2>
+		</tabFolderToISO>
+	</MainWindow>
+	<LiteVersionDialog>
+		<LiteVersionLimitText>AnyToISO簡化版&lt;b&gt;僅用於CD鏡像&lt;/b&gt;（不超過870 MB）。如果用於更大的文件（DVD及以上)請&lt;a href="purchase"&gt;購買專業版&lt;/a&gt;。你可以通過購買獲得註冊碼&lt;a href="unlock"&gt;解鎖軟體&lt;/a&gt;。</LiteVersionLimitText>
+		<buttonPurchasePro>購買專業版...</buttonPurchasePro>
+	</LiteVersionDialog>
+	<EnterKeyDialog>
+		<Caption>輸入註冊碼</Caption>
+		<EnterKeyToUpgradeText>請輸入您的註冊資料升級到AnyToISO專業版。</EnterKeyToUpgradeText>
+		<RegName>註冊名：</RegName>
+		<RegCode>註冊碼：</RegCode>
+	</EnterKeyDialog>
+	<AboutDialog>
+		<Caption>關於AnyToISO</Caption>
+		<Website>網站：</Website>
+		<Support>支援：</Support>
+		<RunningAs>程式運行為：</RunningAs>
+		<CopyRight>本電腦程式受版權法和國際條約保護。未授權的本程式或者其中部分的複製或分發,可能會造成嚴重的民事或刑事處罰。</CopyRight>
+		<buttonPurchasePro>購買專業版...</buttonPurchasePro>
+	</AboutDialog>
+	<NewVersionDialog>
+		<Caption>AnyToISO 更新</Caption>
+		<NewVersionAvailable>AnyToISO新版本 %1 可更新。是否現在下載？</NewVersionAvailable>
+		<CurrentVersion>當前版本：%1</CurrentVersion>
+		<WhatsNew>更新說明</WhatsNew>
+		<LearnMore>了解更多</LearnMore>
+		<buttonDownload>下載</buttonDownload>
+	</NewVersionDialog>
+	<PreferencesDialog>
+		<Caption>參數選項</Caption>
+		<Language>界面語言：</Language>
+		<CheckForNewVersions>啟動時檢查新版本</CheckForNewVersions>
+		<ShellExtension>添加到Windows資源管理器進程</ShellExtension>
+		<ShellExtensionInfo>為光碟、文件夾和支援的文件格式添加右鍵選單。</ShellExtensionInfo>
+	</PreferencesDialog>
+	<PasswordDialog>
+		<Caption>需要密碼</Caption>
+		<FileIsProtected>加密文件，請輸入密碼進行解密：</FileIsProtected>
+		<InvalidPassword>Invalid password</InvalidPassword>
+	</PasswordDialog>
+	<Messages>
+		<Warning>警告</Warning>
+		<Question>問題</Question>
+		<NotEnoughDiskSpace>目標驅動器空閒空間不足（僅剩餘 %1）。\n\n是否繼續？</NotEnoughDiskSpace>
+		<ISOAlreadyExists>目標ISO文件\n%1\n已存在。是否覆蓋？</ISOAlreadyExists>
+		<FolderAlreadyExists>目標文件夾\n%1\n已存在，是否使用同名文件覆蓋所有已存在文件？</FolderAlreadyExists>
+		<RestartProgram>重啟程式以完成註冊。\n\n是否重啟程式？</RestartProgram>
+		<CancelOperation>是否確定終止當前操作？</CancelOperation>
+	</Messages>
+	<StatusMessages>
+		<CheckingSourceImage>檢查源鏡像...</CheckingSourceImage>
+		<Converting>轉換中...</Converting>
+		<Extracting>提取中...</Extracting>
+		<ExtractionFailed>Extract operation failed</ExtractionFailed>
+		<Unpacking>解壓中...</Unpacking>
+		<ConvertingToTemporaryISO>正在轉換為臨時ISO文件...</ConvertingToTemporaryISO>
+		<ProgressBytesWritten>%1 寫入</ProgressBytesWritten>
+		<Track>Track</Track>
+		<ISOImageTypeFound>找到ISO鏡像（%1 類型）</ISOImageTypeFound>
+		<CannotOpenSourceFile>無法打開源文件。</CannotOpenSourceFile>
+		<CannotOpenDestFile>無法打開目標文件。</CannotOpenDestFile>
+		<OperationTerminated>用戶終止了操作。</OperationTerminated>
+		<OperationCompleted>操作完成。</OperationCompleted>
+		<ClickToOpenISOInExplorer>點擊&lt;a href="_open_local_file"&gt;這裡&lt;/a&gt;在資源管理器中打開輸出ISO文件</ClickToOpenISOInExplorer>
+		<ClickToMountISOInFinder>點擊&lt;a href="_open_local_file"&gt;這裡&lt;/a&gt;在Finder中載入ISO</ClickToMountISOInFinder>
+		<ClickToOpenOutFolder>點擊&lt;a href="_open_local_file"&gt;這裡&lt;/a&gt;打開輸出文件夾</ClickToOpenOutFolder>
+		<DiskToISO>
+			<OpeningDevice>正在打開媒體設備，請稍後...</OpeningDevice>
+			<TotalDataSize>數據合計 %1</TotalDataSize>
+			<CreatingISO>正在創建ISO...</CreatingISO>
+			<CannotCreateFromAudio>您無法創建多個會話光碟或者音頻光碟為ISO鏡像，請聯繫客服獲得幫助。</CannotCreateFromAudio>
+			<PleaseUseBinCue>請使用BIN/CUE鏡像</PleaseUseBinCue>
+			<BlankDiskDetected>檢測到空白CD/DVD光碟</BlankDiskDetected>
+			<DiskNotReady>未檢測到CD/DVD光</DiskNotReady>
+			<CannotOpenDevice>無法打開設備(%1)</CannotOpenDevice>
+			<ReadError>讀取錯誤 %1，請聯繫客服獲得幫助。</ReadError>
+			<DeviceIsCopyProtected>驅動器版權保護，扇區加密。無法繼續。</DeviceIsCopyProtected>
+			<ISOCreationFailed>ISO創建失敗</ISOCreationFailed>
+			<BinCueCreationFailed>BIN/CUE 鏡像檢測失敗</BinCueCreationFailed>
+			<CannotReadDiskToc>不能讀取光碟的TOC (目錄)</CannotReadDiskToc>
+			<CannotReadDisk>不能讀取光碟，錯誤： %1</CannotReadDisk>
+			<DiskNotPresent>光碟未準備就緒，或光碟格式不被支援</DiskNotPresent>
+			<NoTracksOnDisk>沒找到該光碟的音軌, 音軌可能為空</NoTracksOnDisk>
+			<mediaType>媒體類型：%1</mediaType>
+			<TrackLength>音軌長度 %1 扇區</TrackLength>
+			<TracksCount>音軌數量：%1</TracksCount>
+			<WritingTrack>寫入音軌 %1, 音軌長度為 %2 扇區</WritingTrack>
+			<DiskReadingStopped>停止位置 %1</DiskReadingStopped>
+			<TrackReadingStopped>停止位置 %1, 繼續下一個音軌</TrackReadingStopped>
+		</DiskToISO>
+		<FolderToISO>
+			<ScanningFolder>正在掃描源目錄...</ScanningFolder>
+			<DirectorySize>目錄大小是 %1</DirectorySize>
+			<WritingISOFile>寫入ISO文件中...</WritingISOFile>
+			<SkippingBigFile>跳過文件 '%1'，文件大於4GB</SkippingBigFile>
+			<SkippingFile>跳過文件 '%1'。</SkippingFile>
+			<BigFileWarning>文件 '%1' 大於4GB，無法再ISO 9660文件系統中顯示。</BigFileWarning>
+			<NestedDirectoriesLimitWarning>目錄結構深度超過%1層，部分問價和目錄將會跳過。</NestedDirectoriesLimitWarning>
+			<UnableToOpenFile>無法打開文件 '%1' 以讀取訪問。</UnableToOpenFile>
+			<NoExistingFolder>The folder %1 doesn't exist</NoExistingFolder>
+		</FolderToISO>
+		<UniversalConverter>
+			<AudioCDWarning>鏡像文件可能是 %1 音頻CD鏡像，無法轉換為ISO文件。</AudioCDWarning>
+			<NotValidImage>錯誤：不是合法CD/DVD鏡像</NotValidImage>
+			<CannotFindSignature>錯誤：無法找到ISO_9660簽名，達到5MB限制</CannotFindSignature>
+			<MultiSessionImageDetected>檢測到multi-session光碟鏡像</MultiSessionImageDetected>
+			<MultiSessionNotSupported>這是一個multi-session光碟鏡像，程式不支援該格式</MultiSessionNotSupported>
+		</UniversalConverter>
+		<NrgConverter>
+			<NrgParsingError>解析文件錯誤，請聯繫assistanceNRG獲取幫助支援</NrgParsingError>
+			<NoSessionsFound>沒找到Nrg會話，請聯繫assistanceNRG獲取幫助支援</NoSessionsFound>
+		</NrgConverter>
+		<ExtractISO>
+			<LoadingImage>正在載入鏡像...</LoadingImage>
+			<ChooseISOFS>ISO鏡像中有多個文件系統，請選擇其中一個進行提取：</ChooseISOFS>
+			<ChooseISOFSCaption>選擇文件系統</ChooseISOFSCaption>
+			<ImageFound>找到 %1 鏡像</ImageFound>
+			<InvalidISO>文件不是合法ISO鏡像或者目前不支援</InvalidISO>
+		</ExtractISO>
+		<UIFConverter>
+			<UsingZlib>正在使用zlib解壓</UsingZlib>
+			<UsingLZMA>正在使用Igor Pavlov的Lzma解壓</UsingLZMA>
+			<MixedImageFound>發現混合鏡像類型 %1，正在解壓為臨時文件...</MixedImageFound>
+			<UnpackingImage>正在解壓鏡像...</UnpackingImage>
+		</UIFConverter>
+		<DebExtract>
+			<NotValidDeb>文件不是合法Debian (Ubuntu) Linux存檔</NotValidDeb>
+		</DebExtract>
+		<RpmExtract>
+			<PackageOpened>壓縮包 %1 已打開</PackageOpened>
+			<DecompressingPayload>解壓 %1 到臨時文件...</DecompressingPayload>
+			<UnpackingArchive>正在打開存檔...</UnpackingArchive>
+		</RpmExtract>
+		<DMG>
+			<ConvertingDmgToISO>正在轉換DMG為HFS+ ISO...</ConvertingDmgToISO>
+			<Writing>寫入 %1...</Writing>
+			<ExtractingMainPartition>提取DMG主文件到臨時文件，可能會花費一些時間 - 請稍後...</ExtractingMainPartition>
+			<NoVolumeFound>未發現分卷，正在搜索HFS+文件系統...</NoVolumeFound>
+			<ExtractingVolume>提取DMG分卷 (%1)...</ExtractingVolume>
+			<CorruptedOrPasswordProtected>錯誤：損壞或密碼保護的DMG鏡像</CorruptedOrPasswordProtected>
+			<XarArchiveDetected>DMG file is actually a XAR archive (normally with actual DMG file inside) that can be only extracted. Please choose extract operation to proceed</XarArchiveDetected>
+		</DMG>
+		<PDIConverter>
+			<InvalidOrBrokenImage>無效或損壞的InstantCopy PDI鏡像</InvalidOrBrokenImage>
+		</PDIConverter>
+		<ISZConverter>
+			<CompressionNone>壓縮方式：無</CompressionNone>
+			<WarningPassword>指定無效密碼將會使輸出文件無效</WarningPassword>
+			<ImageIsSegmented>ISZ文件已分段</ImageIsSegmented>
+		</ISZConverter>
+		<ArchiveConverter>
+			<ReadingArchive>Reading archive...</ReadingArchive>
+			<RemovingTempFiles>Removing temporary files...</RemovingTempFiles>
+			<ExtractError>Unable to extract %1, error %2</ExtractError>
+		</ArchiveConverter>
+		<TarUnpacker>
+			<SinglePackedFileFound>Single packed file detected: %1, unpacking...</SinglePackedFileFound>
+		</TarUnpacker>
+		<XarUnpacker>
+			<ReadingTOC>Reading table of contents (%1 bytes)...</ReadingTOC>
+			<NestedArchiveFound>Extracted file '%1' can be unpacked separately as %2 archive (append extension manually)</NestedArchiveFound>
+		</XarUnpacker>
+	</StatusMessages>
+	<Misc>
+		<buttonOk>確定</buttonOk>
+		<buttonCancel>取消</buttonCancel>
+		<buttonClose>關閉</buttonClose>
+		<ProVersion>專業版</ProVersion>
+		<LiteVersion>簡化版</LiteVersion>
+	</Misc>
+	<ShellExtension>
+		<!-- This section describes Windows context menus -->
+		<ConvertToISO>轉換為"%s"</ConvertToISO>
+		<ConvertToISOInfo>轉換光碟鏡像文件為ISO格式</ConvertToISOInfo>
+		<Extract>提取到"%s"</Extract>
+		<ExtractInfo>提取光碟鏡像文件</ExtractInfo>
+		<CreateISOFromFolder>創建"%s"</CreateISOFromFolder>
+		<CreateISOFromFolderInfo>使用默認選項為當前文件夾創建ISO鏡像</CreateISOFromFolderInfo>
+		<CreateISOFromFolderWithOptions>使用選項創建"%s"...</CreateISOFromFolderWithOptions>
+		<CreateISOFromFolderWithOptionsInfo>使用指定文件系統和卷標為當前文件夾創建ISO鏡像</CreateISOFromFolderWithOptionsInfo>
+		<CreateISOFromDisk>為本光碟創建ISO鏡像</CreateISOFromDisk>
+		<CreateISOFromDiskInfo>為選中光碟創建ISO鏡像</CreateISOFromDiskInfo>
+		<CreateBINCUEFromDisk>創建BIN/CUE光碟鏡像</CreateBINCUEFromDisk>
+		<CreateBINCUEFromDiskInfo>為選定的光碟及其CUE列表創建BIN (raw) 鏡像</CreateBINCUEFromDiskInfo>
+	</ShellExtension>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>檢查更新...</CheckForUpdates>
+		<NewVersionAvailable>有新版本 %1 了!</NewVersionAvailable>
+		<NewVersionAvailableText>有新版本%1 %2 - 您的版本為 %3. 您希望下載新版本麼?</NewVersionAvailableText>
+		<UpdateAlertTitle>軟體更新</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>稍後提醒</UpdateAlertRemindLater>
+		<UpdateAlertSkip>忽略這個版本</UpdateAlertSkip>
+		<UpdateAlertInstall>安裝更新</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>自動檢查更新</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>您的版本已經是最新的!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 是目前最新版本.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>下載失敗，請稍候重試.</MessageErrorConnect>
+		<MessageErrorParse>分析更新數據時發生錯誤.</MessageErrorParse>
+		<UpdateProgressTitle>更新 %1</UpdateProgressTitle>
+		<UpdateProgressCancel>放棄</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>安裝並重啟</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>下載更新數據...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>解壓更新數據...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>準備安裝</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

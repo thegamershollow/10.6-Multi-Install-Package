@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	
+	<key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSHighResolutionCapable</key>
+    <string>True</string>
+
+    <key>CFBundleDocumentTypes</key>
+    <array>
+    	<dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>daa</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+               <string>diskimage/daa</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>PowerISO CD/DVD Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>gbi</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>gBurner CD/DVD Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>deb</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>Deb Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>org.debian.deb-archive</string>
+            </array>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>dmg</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>img</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>bin</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>iso</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/x-iso-image</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>ISO Disk Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.iso-image</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>isz</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>UltraISO Compressed image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>pdi</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>InstantCopy Disc Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>rpm</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/x-rpm</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Linux RPM Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.redhat.rpm-archive</string>
+                <string>com.real.realmedia</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>uif</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>MagicISO Disk Image File</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>mdf</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>MDF Disk Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.alcohol-soft.mdf-image</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>mdx</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>Alcohol 120% CD Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>cdi</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>CDI Disk Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.padus.cdi-image</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>nrg</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>NRG Disk Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.nero.nrg-image</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>b5i</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>BlindWrite 5 Disk Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>b6i</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>BlindWrite 6 Disk Image</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>zip</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/zip</string>
+                <string>application/x-zip</string>
+                <string>application/x-zip-compressed</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+        </dict>
+        
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>rar</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>RAR Archive</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/x-rar</string>
+                <string>application/x-rar-compressed</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+               <string>7z</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/x-7z-compressed</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>7Z Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>xar</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>XAR Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.apple.xar-archive</string>
+                <string>public.xar-archive</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>pkg</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>Installer package</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>gz</string>
+                <string>gzip</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/gzip</string>
+                <string>application/x-gzip</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Gzip File</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSIsAppleDefaultForType</key>
+            <true/>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>tgz</string>
+                <string>tar-gz</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>Gzip Tar Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>org.gnu.gnu-zip-tar-archive</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>bz2</string>
+                <string>bzip2</string>
+                <string>bz</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/bzip2</string>
+                <string>application/bzip</string>
+                <string>application/x-bzip2</string>
+                <string>application/x-bzip</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Bzip2 File</string>
+            <key>CFBundleTypeOSTypes</key>
+            <array>
+                <string>Bzp2</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.bzip2-archive</string>
+                <string>org.bzip.bzip2-archive</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>tbz2</string>
+                <string>tbz</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>Bzip2 Tar Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.tar-bzip2-archive</string>
+                <string>org.bzip.bzip2-tar-archive</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>xz</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/x-xz</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>XZ File</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>org.tukaani.xz-archive</string>
+                <string>public.xz-archive</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>txz</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>XZ Tar Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>org.tukaani.xz-tar-archive</string>
+                <string>public.tar-xz-archive</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>tar</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/x-tar</string>
+                <string>application/tar</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Tar Archive</string>
+            <key>CFBundleTypeOSTypes</key>
+            <array>
+                <string>TARF</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.tar-archive</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>cpio</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeMIMETypes</key>
+            <array>
+                <string>application/x-cpio</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>CPIO Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>public.cpio-archive</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>cpgz</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>Gzip CPIO Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.apple.bom-compressed-cpio</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>cpbz2</string>
+            </array>
+            <key>CFBundleTypeIconFile</key>
+            <string>AnyToISO.icns</string>
+            <key>CFBundleTypeName</key>
+            <string>BZIP2 CPIO Archive</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.apple.bom-compressed-cpio</string>
+            </array>
+            <key>LSTypeIsPackage</key>
+            <false/>
+            <key>NSPersistentStoreTypeKey</key>
+            <string>XML</string>
+        </dict>
+        
+    </array>
+        
+	<key>CFBundleIconFile</key>
+	<string>AnyToISO.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleGetInfoString</key>
+	<string>3.6.3</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.6.3</string>
+    <key>CFBundleVersion</key>
+    <string>3.6.3</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright 2008-2015 CrystalIDEA Software. All rights reserved.</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>AnyToISO</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.crystalidea.AnyToISO</string>
+	<key>NOTE</key>
+	<string>Created by CrystalIDEA Software</string>
+</dict>
+</plist>
