@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.8" Author="Florian Marin">
+	<MainWindow>
+		<staticFanListHeader>Ventilatoare:</staticFanListHeader>
+		<staticSensorsListHeader>Temperatura senzorilor:</staticSensorsListHeader>
+		<listColumnFan>Ventilator</listColumnFan>
+		<listColumnRPM>Min/Current/Max RPM</listColumnRPM>
+		<listColumnControl>Control</listColumnControl>
+		<listColumnSensor>Senzor</listColumnSensor>
+		<listColumnSensorValue>Valoare</listColumnSensorValue>
+		<listSeparatorDrives>Disk Drives:</listSeparatorDrives>
+		<popupMenuItemControl>Schimba controlul...</popupMenuItemControl>
+		<popupMenuItemReset>Resetare la control automat</popupMenuItemReset>
+		<fanControlAutomatic>Auto</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatic (controlled by system)</fanControlAutomaticInfo>
+		<fanControlConstant>Valoare constanta la %1</fanControlConstant>
+		<fanControlSensor>Bazat pe %1</fanControlSensor>
+		<fanControlUnknown>Necunoscut!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimizeaza</buttonMinimize>
+		<buttonMinimizeMac>Ascunde in bara de menu</buttonMinimizeMac>
+		<buttonPreferences>Preferinte…</buttonPreferences>
+		<buttonAbout>Despre...</buttonAbout>
+		<statusMoreApps>Versiunea de %1 &amp; mai multe aplicatii</statusMoreApps>
+		<statusNonAppleFSWarningMac>Mod read-only: am detectat fisiere de sister non-Apple (%1). Ati mutat aplicatia in /Applications ?</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>Nu se poate obtine access exclusive la SMC. Cel mai probable este folosit de alta plicate de control a ventilatoarelor.</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Controlul ventilatorului pentru %1 fan</title>
+		<radioConstant>Valoare constanta</radioConstant>
+		<radioSensor>Valoare bazata pe senzor</radioSensor>
+		<staticIncrease>Temperatura de la care viteza \nventilatorul va incepe sa creasca:</staticIncrease>
+		<staticMax>Temperatura maxima:</staticMax>
+		<statusWarning>Ceva nu e bine - valorile min/max sunt egale (%1).&lt;br/&gt; Va rugam sa va asigurati ca ati dezintalat alte programe de control a ventilatoarelor si ca ati resetat SMC-ul.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Arata Macs Fan Control</itemShow>
+		<itemWebsite>Site-ul web</itemWebsite>
+		<itemCheckForUpdates>Verifica ultima versiune…</itemCheckForUpdates>
+		<itemExit>Iesire</itemExit>
+		<itemSensorBased>Sensor-based</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Preferinte</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Tray icon</tabTrayIcon>
+		<tabTrayIconMac>Afiseaza ca icon in bara de meniu</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Limba:</staticLanguage>
+		<checkSystemStart>Autostart minimizat cu sistemul (recomandat)</checkSystemStart>
+		<checkFahrenheit>Folositi scala de temperatura Fahrenheit</checkFahrenheit>
+		<checkPrecise>Afisare cu precise a temperature daca este posibil (ex. 45.4)</checkPrecise>
+		<staticSensor>Sensor:</staticSensor>
+		<staticFan>Ventilator:</staticFan>
+		<staticIcon>Icon:</staticIcon>
+		<comboIconOptionShow>Arata</comboIconOptionShow>
+		<comboIconOptionShowBW>Arata (negru &amp; alb)</comboIconOptionShowBW>
+		<comboOptionNone>Nimic</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(numai in Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Activeaza log-ul (este necesar repornire)</checkLog>
+		<browseLog>Naviga…</browseLog>
+		<buttonCopyTechInfo>Copiati informatiile tehnice</buttonCopyTechInfo>
+		<copyInfoMessage>Informatiile tehnice sunt copiate in clipboard</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Despre Macs Fan Control</title>
+		<staticTechnicalSupport>Suport tehnic pe forum</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>ACEST PROGRAM ESTE PENTRU UTILIZATORII AVANSATI CARE STIU SA-L FOLOSEASCA FARA A-SI STRICA MAC-UL. AUTORII NU POT FI RASPUNZATORI PENTRU PIERDEREA DATELOR, DEFECTIUNI, PIERDERI DE BANI SAU ALTE TIPURI DE PIERDERI RAPORTATE LA FOLOSIREA SAU NEFOLOSIREA ACESTUI PROGRAM.</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - O noua versiune este disponibila</title>
+		<staticNewVersion>O noua version a acestui program este disponibila. Va rugam sa vizitati &lt;a href='website'&gt;eite-ul&lt;/a&gt; pentru a obtine cea mai noua versiune.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>Inchidere</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Anulare</buttonCancel>
+		<buttonContinue>Continuare</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

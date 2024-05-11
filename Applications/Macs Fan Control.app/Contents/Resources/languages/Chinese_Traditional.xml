@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.0" Author="Kang-Min Wang(lagunawang -at- gmail.com)">
+	<MainWindow>
+		<staticFanListHeader>風扇列表:</staticFanListHeader>
+		<staticSensorsListHeader>偵測器列表:</staticSensorsListHeader>
+		<listColumnFan>風扇</listColumnFan>
+		<listColumnRPM>Min/Current/Max RPM</listColumnRPM>
+		<listColumnControl>控制設定</listColumnControl>
+		<listColumnSensor>偵測器</listColumnSensor>
+		<listColumnSensorValue>溫度</listColumnSensorValue>
+		<listSeparatorDrives>Disk Drives:</listSeparatorDrives>
+		<popupMenuItemControl>修改控制設定...</popupMenuItemControl>
+		<popupMenuItemReset>Reset to automatic control</popupMenuItemReset>
+		<fanControlAutomatic>自動</fanControlAutomatic>
+		<fanControlAutomaticInfo>自動 (系統控制)</fanControlAutomaticInfo>
+		<fanControlConstant>固定轉速為 %1</fanControlConstant>
+		<fanControlSensor>基於 %1</fanControlSensor>
+		<fanControlUnknown>Unknown!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>最小化</buttonMinimize>
+		<buttonMinimizeMac>隱藏到選單列</buttonMinimizeMac>
+		<buttonPreferences>設定...</buttonPreferences>
+		<buttonAbout>關於...</buttonAbout>
+		<statusMoreApps>%1 版本 &amp; 更多應用程式</statusMoreApps>
+		<statusNonAppleFSWarningMac>唯讀模式: 偵測到非Apple檔案系統 (%1)</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>Unable to acquire exclusive access to SMC service. Most likely it's in use by another (fan controlling) application.</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>修改 %1 風扇設定</title>
+		<radioConstant>固定轉速</radioConstant>
+		<radioSensor>使用偵測值</radioSensor>
+		<staticIncrease>高於此溫度則提高風扇轉速:</staticIncrease>
+		<staticMax>最高溫度:</staticMax>
+		<statusWarning>錯誤 - 風扇的最大最小值相同 (%1).&lt;br/&gt; 請刪除其他風扇控制程式，並重啟SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>顯示主視窗</itemShow>
+		<itemWebsite>官方網站</itemWebsite>
+		<itemCheckForUpdates>Check for updates...</itemCheckForUpdates>
+		<itemExit>離開</itemExit>
+		<itemSensorBased>Sensor-based</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>設定</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>選單列圖示</tabTrayIcon>
+		<tabTrayIconMac>選單列圖示顯示</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>語言:</staticLanguage>
+		<checkSystemStart>隨系統開機後自動啟動(建議)</checkSystemStart>
+		<checkFahrenheit>使用華氏溫標表示</checkFahrenheit>
+		<checkPrecise>Precise display of temperature when possible (e.g. 45.4)</checkPrecise>
+		<staticSensor>Sensor:</staticSensor>
+		<staticFan>Fan:</staticFan>
+		<staticIcon>Icon:</staticIcon>
+		<comboIconOptionShow>Show</comboIconOptionShow>
+		<comboIconOptionShowBW>Show (black &amp; white)</comboIconOptionShowBW>
+		<comboOptionNone>None</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(只有攝氏有效)</staticCelsiusOnlyOnWindows>
+		<checkLog>Enable log (restart required)</checkLog>
+		<browseLog>Browse</browseLog>
+		<buttonCopyTechInfo>複製技術資訊</buttonCopyTechInfo>
+		<copyInfoMessage>Technical information is copied to the clipboard</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>關於Macs Fan Control</title>
+		<staticTechnicalSupport>技術支援</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>此應用程式是提供給那些知道如何使用並且不會損害他們的MAC的進階使用者使用的。作者不為因為不當使用或由於使用此程式造成資料遺失，硬體損傷，或其他相關損失負責</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - 發現新版本</title>
+		<staticNewVersion>有新版本了. 請訪問我們的 &lt;a href='website'&gt;網站&lt;/a&gt; 獲得新版本.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>關閉</buttonClose>
+		<buttonOK>確定</buttonOK>
+		<buttonCancel>取消</buttonCancel>
+		<buttonContinue>繼續</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

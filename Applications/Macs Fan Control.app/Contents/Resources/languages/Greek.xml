@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.8" Author="Konstantinos">
+	<MainWindow>
+		<staticFanListHeader>Ανεμιστήρες:</staticFanListHeader>
+		<staticSensorsListHeader>Αισθητήρες θερμοκρασίας:</staticSensorsListHeader>
+		<listColumnFan>Ανεμιστήρας</listColumnFan>
+		<listColumnRPM>Ελάχιστο/Τρέχον/Μέγιστο RPM</listColumnRPM>
+		<listColumnControl>Έλεγχος</listColumnControl>
+		<listColumnSensor>Αισθητήρας</listColumnSensor>
+		<listColumnSensorValue>Τιμή</listColumnSensorValue>
+		<listSeparatorDrives>Σκληροί Δίσκοι:</listSeparatorDrives>
+		<popupMenuItemControl>Αλλαγή ελέγχου...</popupMenuItemControl>
+		<popupMenuItemReset>Επαναφορά σε αυτόματο έλεγχο</popupMenuItemReset>
+		<fanControlAutomatic>Αυτόματα</fanControlAutomatic>
+		<fanControlAutomaticInfo>Αυτόματα (ελεγχόμενος από το σύστημα)</fanControlAutomaticInfo>
+		<fanControlConstant>Σταθερή τιμή στις %1</fanControlConstant>
+		<fanControlSensor>Βάσει %1</fanControlSensor>
+		<fanControlUnknown>Άγνωστο!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Ελαχιστοποίηση</buttonMinimize>
+		<buttonMinimizeMac>Απόκρυψη στη μπάρα μενού</buttonMinimizeMac>
+		<buttonPreferences>Προτιμήσεις...</buttonPreferences>
+		<buttonAbout>Σχετικά...</buttonAbout>
+		<statusMoreApps>Έκδοση %1 &amp; περισσότερα εργαλεία</statusMoreApps>
+		<statusNonAppleFSWarningMac>Κατάσταση read-only: Εντοπίστηκε σύστημα αρχείων (%1) διαφορετικό από αυτό της Apple. Μήπως να μετακινούσατε το πρόγραμμα στο φάκελο /Applications καλύτερα;</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>Αδυναμία απόκτησης αποκλειστικής πρόσβασης στην υπηρεσία SMC. Πιθανότατα αυτή να βρίσκεται σε χρήση από άλλη εφαρμογή (ελέγχου ανεμιστήρων).</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Έλεγχος λειτουργίας ανεμιστήρα %1</title>
+		<radioConstant>Σταθερή τιμή RPM</radioConstant>
+		<radioSensor>Τιμή βάσει αισθητήρα</radioSensor>
+		<staticIncrease>Θερμοκρασία στην οποία ο ανεμιστήρας αυξάνει στροφές:</staticIncrease>
+		<staticMax>Μέγιστη θερμοκρασία:</staticMax>
+		<statusWarning>Εντοπίστηκε σφάλμα: Οι ελάχιστες και μέγιστες τιμές ανεμιστήρα (%1) είναι ίδιες.&lt;br/&gt; Παρακαλούμε βεβαιωθείτε πως έχετε απεγκαταστήσει άλλα εργαλεία ελέγχου ανεμιστήρων και πως έχετε κάνει επαναφορά στο SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Προβολή Macs Fan Control</itemShow>
+		<itemWebsite>Ιστοσελίδα</itemWebsite>
+		<itemCheckForUpdates>Έλεγχος για ενημερώσεις...</itemCheckForUpdates>
+		<itemExit>Έξοδος</itemExit>
+		<itemSensorBased>Βάσει αισθητήρα</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Προτιμήσεις</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Εικονίδιο περιοχής ειδοποιήσεων</tabTrayIcon>
+		<tabTrayIconMac>Προβολή εικονιδίου μπάρας μενού</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Γλώσσα:</staticLanguage>
+		<checkSystemStart>Αυτόματη εκκίνηση με το σύστημα (προτείνεται)</checkSystemStart>
+		<checkFahrenheit>Χρήση κλίμακας θερμοκρασίας Fahrenheit</checkFahrenheit>
+		<checkPrecise>Ακριβής προβολή θερμοκρασίας αν δυνατόν (π.χ. 45.4°)</checkPrecise>
+		<staticSensor>Αισθητήρας:</staticSensor>
+		<staticFan>Ανεμιστήρας:</staticFan>
+		<staticIcon>Εικονίδιο:</staticIcon>
+		<comboIconOptionShow>Προβολή</comboIconOptionShow>
+		<comboIconOptionShowBW>Προβολή (μονόχρωμο)</comboIconOptionShowBW>
+		<comboOptionNone>Κανένα</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(μόνο Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Ενεργοποίηση καταγραφής (απαιτείται επανεκκίνηση)</checkLog>
+		<browseLog>Περιήγηση</browseLog>
+		<buttonCopyTechInfo>Αντιγραφή τεχνικών πληροφοριών</buttonCopyTechInfo>
+		<copyInfoMessage>Οι τεχνικές πληροφορίες αντιγράφηκαν στο Πρόχειρο επιτυχώς.</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Σχετικά με το Macs Fan Control</title>
+		<staticTechnicalSupport>Τεχνική υποστήριξη στο forum</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>ΤΟ ΠΡΟΓΡΑΜΜΑ ΑΠΕΥΘΥΝΕΤΑΙ ΣΕ ΠΡΟΧΩΡΗΜΕΝΟΥΣ ΧΡΗΣΤΕΣ ΠΟΥ ΓΝΩΡΙΖΟΥΝ ΠΩΣ ΝΑ ΤΟ ΧΡΗΣΙΜΟΠΟΙΗΣΟΥΝ ΧΩΡΙΣ ΝΑ ΚΑΝΟΥΝ ΖΗΜΙΑ ΣΤΟ MAC ΤΟΥΣ. ΣΥΝΕΠΩΣ, ΟΙ ΔΗΜΙΟΥΡΓΟΙ ΔΕΝ ΕΙΝΑΙ ΥΠΕΥΘΥΝΟΙ ΓΙΑ ΟΠΟΙΑΔΗΠΟΤΕ ΑΠΩΛΕΙΑ ΔΕΔΟΜΕΝΩΝ, ΖΗΜΙΕΣ, ΑΠΩΛΕΙΑ ΚΕΡΔΟΥΣ Η ΑΛΛΟΥ ΕΙΔΟΥΣ ΖΗΜΙΕΣ ΠΟΥ ΣΧΕΤΙΖΟΝΤΑΙ ΜΕ ΤΗ ΣΩΣΤΗ Η ΕΣΦΑΛΜΕΝΗ ΧΡΗΣΗ ΤΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ ΑΥΤΟΥ.</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Νεότερη έκδοση διαθέσιμη</title>
+		<staticNewVersion>Μια νεότερη έκδοση του προγράμματος είναι διαθέσιμη. Παρακαλούμε επισκεφτείτε την &lt;a href='website'&gt;ιστοσελίδα&lt;/a&gt; μας για τη νεότερη έκδοση.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>Κλείσιμο</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Άκυρο</buttonCancel>
+		<buttonContinue>Συνέχεια</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

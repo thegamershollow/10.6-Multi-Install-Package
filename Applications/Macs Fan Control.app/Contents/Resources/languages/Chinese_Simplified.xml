@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.12" Author="Huang Cheng [sniperbat@gmail.com]">
+	<MainWindow>
+		<staticFanListHeader>风扇列表:</staticFanListHeader>
+		<staticSensorsListHeader>传感器列表:</staticSensorsListHeader>
+		<listColumnFan>风扇</listColumnFan>
+		<listColumnRPM>Min/Current/Max RPM</listColumnRPM>
+		<listColumnControl>控制策略</listColumnControl>
+		<listColumnSensor>传感器</listColumnSensor>
+		<listColumnSensorValue>温度</listColumnSensorValue>
+		<listSeparatorDrives>磁盘驱动器:</listSeparatorDrives>
+		<popupMenuItemControl>修改控制策略...</popupMenuItemControl>
+		<popupMenuItemReset>重置为自动控制</popupMenuItemReset>
+		<fanControlAutomatic>自动</fanControlAutomatic>
+		<fanControlAutomaticInfo>自动 (系统控制)</fanControlAutomaticInfo>
+		<fanControlConstant>固定转速为 %1</fanControlConstant>
+		<fanControlSensor>基于 %1</fanControlSensor>
+		<fanControlUnknown>不明!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>最小化</buttonMinimize>
+		<buttonMinimizeMac>隐藏到菜单栏</buttonMinimizeMac>
+		<buttonPreferences>设置...</buttonPreferences>
+		<buttonAbout>关于...</buttonAbout>
+		<statusMoreApps>%1 版本 &amp; 更多应用程序</statusMoreApps>
+		<statusNonAppleFSWarningMac>只读模式: 检测到非Apple文件系统 (%1)</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>无法独占访问SMC服务. SMC服务可能被其他(风扇控制)应用程序使用中.</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>修改 %1 风扇设置</title>
+		<radioConstant>固定转速</radioConstant>
+		<radioSensor>基于检测值</radioSensor>
+		<staticIncrease>高于此温度则提高风扇转速:</staticIncrease>
+		<staticMax>最高温度:</staticMax>
+		<statusWarning>错误 - 风扇的最大最小值相同 (%1).&lt;br/&gt; 请删除其他风扇控制程序，并重启SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>显示主窗口</itemShow>
+		<itemWebsite>主页</itemWebsite>
+		<itemCheckForUpdates>检查更新...</itemCheckForUpdates>
+		<itemExit>退出</itemExit>
+		<itemSensorBased>基于传感器检测值</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>设置</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>菜单栏图标</tabTrayIcon>
+		<tabTrayIconMac>菜单栏图标显示</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>语言:</staticLanguage>
+		<checkSystemStart>随系统最小化自动启动(推荐)</checkSystemStart>
+		<checkFahrenheit>使用华氏单位显示</checkFahrenheit>
+		<checkPrecise>可能时精确显示温度(比如45.4)</checkPrecise>
+		<staticSensor>传感器:</staticSensor>
+		<staticFan>风扇:</staticFan>
+		<staticIcon>图标:</staticIcon>
+		<comboIconOptionShow>显示彩色图标</comboIconOptionShow>
+		<comboIconOptionShowBW>显示黑白图标</comboIconOptionShowBW>
+		<comboOptionNone>不显示</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(只有摄氏有效)</staticCelsiusOnlyOnWindows>
+		<checkLog>开启日志(需要重启)</checkLog>
+		<browseLog>浏览</browseLog>
+		<buttonCopyTechInfo>拷贝技术信息</buttonCopyTechInfo>
+		<copyInfoMessage>技术信息已拷贝至剪贴板</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>关于Macs Fan Control</title>
+		<staticTechnicalSupport>技术支持</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>此应用程序是提供给那些知道如何使用并且不会损害他们的MAC的高级用户使用的。作者不为因为不当使用或由于使用此程序造成数据丢失，硬件损伤，或其他相关损失负责</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - 发现新版本</title>
+		<staticNewVersion>有新版本了. 请访问我们的 &lt;a href='website'&gt;网站&lt;/a&gt; 获得新版本.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>关闭</buttonClose>
+		<buttonOK>确定</buttonOK>
+		<buttonCancel>取消</buttonCancel>
+		<buttonContinue>继续</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>检查更新...</CheckForUpdates>
+		<NewVersionAvailable>有新版本 %1 了!</NewVersionAvailable>
+		<NewVersionAvailableText>有新版本%1 %2 - 您的版本为 %3. 您希望下载新版本么?</NewVersionAvailableText>
+		<UpdateAlertTitle>软件更新</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>稍后提醒</UpdateAlertRemindLater>
+		<UpdateAlertSkip>忽略这个版本</UpdateAlertSkip>
+		<UpdateAlertInstall>安装更新</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>自动检查更新</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>您的版本已经是最新的!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 是目前最新版本.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>下载失败，请稍候重试.</MessageErrorConnect>
+		<MessageErrorParse>分析更新数据时发生错误.</MessageErrorParse>
+		<UpdateProgressTitle>更新 %1</UpdateProgressTitle>
+		<UpdateProgressCancel>放弃</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>安装并重启</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>下载更新数据...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>解压更新数据...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>准备安装</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

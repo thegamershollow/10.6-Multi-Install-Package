@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.8" Author="Gerrit, update by Adrian Geiler">
+	<MainWindow>
+		<staticFanListHeader>Lüfter:</staticFanListHeader>
+		<staticSensorsListHeader>Temperatursensoren:</staticSensorsListHeader>
+		<listColumnFan>Lüfter</listColumnFan>
+		<listColumnRPM>RPM min/momentan/max</listColumnRPM>
+		<listColumnControl>Steuerung</listColumnControl>
+		<listColumnSensor>Sensor</listColumnSensor>
+		<listColumnSensorValue>Wert in</listColumnSensorValue>
+		<listSeparatorDrives>Disk Drives:</listSeparatorDrives>
+		<popupMenuItemControl>Steuerung ändern…</popupMenuItemControl>
+		<popupMenuItemReset>Auf automatische Steuerung zurücksetzen</popupMenuItemReset>
+		<fanControlAutomatic>Auto</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatisch (systemgesteuert)</fanControlAutomaticInfo>
+		<fanControlConstant>Konstanter Wert von %1</fanControlConstant>
+		<fanControlSensor>Basierend auf %1</fanControlSensor>
+		<fanControlUnknown>Unbekannt!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimieren</buttonMinimize>
+		<buttonMinimizeMac>Fenster ausblenden</buttonMinimizeMac>
+		<buttonPreferences>Einstellungen...</buttonPreferences>
+		<buttonAbout>Über...</buttonAbout>
+		<statusMoreApps>%1-Version &amp; weitere Apps</statusMoreApps>
+		<statusNonAppleFSWarningMac>Lesemodus: Nicht-Apple-Dateisystem entdeckt(%1)</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>Kein exklusiver Zugang zum SMC-Service möglich. Er wird möglicherweise von einem anderen (Lüftungssteurungs-)Programm verwendet. Versuchen Sie, das Programm neu zu starten.</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Lüftersteuerung für %1-Lüfter</title>
+		<radioConstant>Konstanter Drehzahlwert</radioConstant>
+		<radioSensor>Sensorbasierter Wert</radioSensor>
+		<staticIncrease>Temperatur, ab der die Lüfterdrehzahl steigen soll:</staticIncrease>
+		<staticMax>Maximale Temperatur:</staticMax>
+		<statusWarning>Etwas ist schiefgelaufen - min/max Lüfterwerte sind gleich (%1).&lt;br/&gt; Deinstallieren Sie alle anderen Lüftungssteuerungsprogramme und setzen Sie den SMC zurück.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Macs Fan Control anzeigen</itemShow>
+		<itemWebsite>Website</itemWebsite>
+		<itemCheckForUpdates>Nach Aktualisierungen suchen</itemCheckForUpdates>
+		<itemExit>Beenden </itemExit>
+		<itemSensorBased>Sensorbasiert</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Einstellungen</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Ablagesymbol</tabTrayIcon>
+		<tabTrayIconMac>Menüleistendarstellung</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Sprache:</staticLanguage>
+		<checkSystemStart>Autostart minimiert mit Systemstart (empfohlen)</checkSystemStart>
+		<checkFahrenheit>Fahrenheit-Temperaturskala verwenden</checkFahrenheit>
+		<checkPrecise>Genaue Temperatur anzeigen, wenn möglich (z. B. 45.4)</checkPrecise>
+		<staticSensor>Sensor:</staticSensor>
+		<staticFan>Lüfter:</staticFan>
+		<staticIcon>Symbol:</staticIcon>
+		<comboIconOptionShow>Anzeigen</comboIconOptionShow>
+		<comboIconOptionShowBW>Anzeigen (schwarz &amp; weiß)</comboIconOptionShowBW>
+		<comboOptionNone>Nicht anzeigen</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(Nur Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Log aktivieren (Neustart notwendig)</checkLog>
+		<browseLog>Öffnen…</browseLog>
+		<buttonCopyTechInfo>Technische Info kopieren</buttonCopyTechInfo>
+		<copyInfoMessage>Technische Informationen wurden in die Zwischenablage kopiert</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Über Macs Fan Control</title>
+		<staticTechnicalSupport>Technische Unterstützung im Forum</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>DAS PROGRAMM IST FÜR FORTGESCHRITTENE BENUTZER, DIE WISSEN, WIE ES ZU BENUTZEN IST, OHNE DADURCH IHREM MAC SCHADEN ZUZUFÜGEN. DIE AUTOREN SIND NICHT VERANTWORTLICH FÜR DATENVERLUST, BESCHÄDIGUNGEN, PROFITVERLUST ODER JEGLICHE ANDEREN VERLUSTE, DIE DURCH DIE BENUTZUNG ODER MISSBRÄUCHLICHE BENUTZUNG DIESES PROGRAMMES ENTSTEHEN KÖNNTEN.</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Neue Version erhältlich</title>
+		<staticNewVersion>Eine neue Version dieses Programmes ist verfügbar. Bitte besuchen Sie unsere &lt;a href=‚Website&gt;website&lt;/a&gt; für die neueste Version.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>Schließen</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Abbrechen</buttonCancel>
+		<buttonContinue>Fortsetzen</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>Freigabe auf %1</ReleasedOn>
+		<CheckForUpdates>Nach Aktualisierungen suchen...</CheckForUpdates>
+		<NewVersionAvailable>Eine neue Version von %1 ist verfügbar!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 ist verfügbar (Sie verwenden Version %3). Möchten Sie die neue Version jetzt herunterladen?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software-Aktualisierung</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Versionshinweise:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Später erinnern</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Diese Version überspringen</UpdateAlertSkip>
+		<UpdateAlertInstall>Installieren</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Automatisch nach Aktualisierungen suchen</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Sie sind auf dem neuesten Stand!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 ist zur Zeit die neueste verfügbare Version.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Beim Herunterladen ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.</MessageErrorConnect>
+		<MessageErrorParse>Beim Lesen der Aktualisierungsinformationen ist ein Fehler aufgetreten.</MessageErrorParse>
+		<UpdateProgressTitle>Aktualisierung von %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Abbrechen</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Installieren und erneut starten</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Aktualisierung wird heruntergeladen...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Aktualisierung entpacken...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Bereit zum Installieren</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 von %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.12" Author="Ugo R. Sanchez">
+	<MainWindow>
+		<staticFanListHeader>Ventiladores (doble click para ajustar):</staticFanListHeader>
+		<staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
+		<listColumnFan>Ventilador</listColumnFan>
+		<listColumnRPM>RPM Mín/Actual/Máx</listColumnRPM>
+		<listColumnControl>Control</listColumnControl>
+		<listColumnSensor>Sensor</listColumnSensor>
+		<listColumnSensorValue>Valor</listColumnSensorValue>
+		<listSeparatorDrives>Almacenamiento:</listSeparatorDrives>
+		<popupMenuItemControl>Cambiar control...</popupMenuItemControl>
+		<popupMenuItemReset>Control automático</popupMenuItemReset>
+		<fanControlAutomatic>Automático</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatic (controlled by system)</fanControlAutomaticInfo>
+		<fanControlConstant>Valor constante a %1</fanControlConstant>
+		<fanControlSensor>Basado en %1</fanControlSensor>
+		<fanControlUnknown>Desconocido</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimizar</buttonMinimize>
+		<buttonMinimizeMac>Poner en barra de menú</buttonMinimizeMac>
+		<buttonPreferences>Preferencias...</buttonPreferences>
+		<buttonAbout>Acerca de...</buttonAbout>
+		<statusMoreApps>%1 versión &amp; más apps</statusMoreApps>
+		<statusNonAppleFSWarningMac>Modo sólo lectura: No se han detectado sistemas de archivos de Apple (%1). ¿Ha movido la aplicación a /Applications ?</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>Imposible acceder al servicio SMC. ¿Tiene otra aplicación de control de ventiladores en uso?.</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Control del ventilador %1</title>
+		<radioConstant>Valor de RPM constante</radioConstant>
+		<radioSensor>Valor basado en sensor</radioSensor>
+		<staticIncrease>Temperatura a la que el ventilador aumentará:</staticIncrease>
+		<staticMax>Temperatura máxima:</staticMax>
+		<statusWarning>Algo está mal - los valores mín/máx son iguales (%1).&lt;br/&gt; Asegúrese de no utilizar ninguna otra aplicación de control de ventiladores y reinicialice la SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Mostrar Macs Fan Control</itemShow>
+		<itemWebsite>Sitio Web</itemWebsite>
+		<itemCheckForUpdates>Buscar actualizaciones…</itemCheckForUpdates>
+		<itemExit>Salir</itemExit>
+		<itemSensorBased>Sensor</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Preferencias</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Tray icon</tabTrayIcon>
+		<tabTrayIconMac>Menubar display</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Idioma:</staticLanguage>
+		<checkSystemStart>Ejecutar al inicio del sistema (recomendado)</checkSystemStart>
+		<checkFahrenheit>Usar escala en grados Fahrenheit</checkFahrenheit>
+		<checkPrecise>Mostrar temperatura con precisión cuando sea posible (e.g. 45.4)</checkPrecise>
+		<staticSensor>Sensor:</staticSensor>
+		<staticFan>Ventilador:</staticFan>
+		<staticIcon>Icono:</staticIcon>
+		<comboIconOptionShow>Mostrar</comboIconOptionShow>
+		<comboIconOptionShowBW>Mostrar (negro &amp; blanco)</comboIconOptionShowBW>
+		<comboOptionNone>Ninguno</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(sólo Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Activar registro (Requiere reiniciar)</checkLog>
+		<browseLog>Buscar…</browseLog>
+		<buttonCopyTechInfo>Copy technical info</buttonCopyTechInfo>
+		<copyInfoMessage>Technical information is copied to the clipboard</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Acerca de Macs Fan Control</title>
+		<staticTechnicalSupport>Soporte técnico en el foro</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>ESTE PROGRAMA ES PARA USUARIOS QUE SABEN HACER USO DE ÉL SIN DAÑAR SUS MAC. LOS AUTORES NO SE HACEN RESPONSABLES DE LA PÉRDIDA DE DATOS, DAÑOS, PÉRDIDA DE BENEFICIOS U OTRO TIPO DE PÉRDIDAS DERIVADOS DEL USO O MAL USO DEL PROGRAMA</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Nueva versión disponible</title>
+		<staticNewVersion>Hay una nueva versión disponible. Por favor, visite nuestro &lt;a href='website'&gt;sitio web&lt;/a&gt; para descargar la nueva versión.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>Cerrar</buttonClose>
+		<buttonOK>Aceptar</buttonOK>
+		<buttonCancel>Cancelar</buttonCancel>
+		<buttonContinue>Continuar</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>Lanzada en %1</ReleasedOn>
+		<CheckForUpdates>Buscar actualizaciones…</CheckForUpdates>
+		<NewVersionAvailable>Una nueva versión de %1 está disponible</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 está disponible - tienes %3. ¿Quieres descargarlo ahora?</NewVersionAvailableText>
+		<UpdateAlertTitle>Actualización de Software</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Notas de la versión:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Recordar Luego</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Omitir esta versión</UpdateAlertSkip>
+		<UpdateAlertInstall>Instalar Actualización</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Buscar actualizaciónes automaticamente</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Su versión está actualizada</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 es la última versión disponible.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Error descargando actualización. Por favor, prueba más tarde.</MessageErrorConnect>
+		<MessageErrorParse>Ocurrió un error actualizando el feed de actualizaciones.</MessageErrorParse>
+		<UpdateProgressTitle>Actualizando %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancelar</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Instalar y Reiniciar</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Descargando actualización…</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extrayendo actualización…</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Preparado para instalar</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 de %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

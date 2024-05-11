@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.8" Author="OREKASEP - Thanh TRAN CONG">
+	<MainWindow>
+		<staticFanListHeader>Quạt:</staticFanListHeader>
+		<staticSensorsListHeader>Cảm biến nhiệt độ:</staticSensorsListHeader>
+		<listColumnFan>Quạt</listColumnFan>
+		<listColumnRPM>Vòng/Phút nhỏ nhất/hiện tại/lớn nhất</listColumnRPM>
+		<listColumnControl>Điều khiển</listColumnControl>
+		<listColumnSensor>Cảm biến</listColumnSensor>
+		<listColumnSensorValue>Giá trị</listColumnSensorValue>
+		<listSeparatorDrives>Ổ đĩa:</listSeparatorDrives>
+		<popupMenuItemControl>Thay đổi điều khiển...</popupMenuItemControl>
+		<popupMenuItemReset>Chuyển chế độ tự điều khiển</popupMenuItemReset>
+		<fanControlAutomatic>Tự động</fanControlAutomatic>
+		<fanControlAutomaticInfo>Tự động (điều khiển bởi hệ thống)</fanControlAutomaticInfo>
+		<fanControlConstant>Cố định giá trị %1</fanControlConstant>
+		<fanControlSensor>Dựa theo %1</fanControlSensor>
+		<fanControlUnknown>Không rõ!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Thu nhỏ</buttonMinimize>
+		<buttonMinimizeMac>Ẩn trên thanh công cụ</buttonMinimizeMac>
+		<buttonPreferences>Tùy chọn...</buttonPreferences>
+		<buttonAbout>Giới thiệu...</buttonAbout>
+		<statusMoreApps>phiên bản %1 &amp; Ứng dụng khác</statusMoreApps>
+		<statusNonAppleFSWarningMac>Chế độ Chỉ-Đọc: không tìm thấy file Apple hệ thống (%1). Hãy thử chuyển sang thư mục '/Applications'?</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>Không thể truy cập từ ngoài tới dịch vụ SMC. Có thể nó đang được sử dụng bởi ứng dụng khác (điều khiển quạt tương tự). Hãy thử khởi động lại ứng dụng.</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Điều khiển quạt cho %1</title>
+		<radioConstant>Giá trị cố định Vòng/Phút</radioConstant>
+		<radioSensor>Giá trị theo cảm biến</radioSensor>
+		<staticIncrease>Nhiệt độ quạt bắt đầu tăng từ:</staticIncrease>
+		<staticMax>Nhiệt độ lớn nhất:</staticMax>
+		<statusWarning>Có sai sót - giá trị quạt lớn nhất/nhỏ nhất bằng nhau (%1).&lt;br/&gt; Hãy đảm bảo xóa những ứng dụng điều khiển quạt khác và khởi động lại ứng dụng.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Hiện Macs Fan Control</itemShow>
+		<itemWebsite>Website</itemWebsite>
+		<itemCheckForUpdates>Kiểm tra cập nhật...</itemCheckForUpdates>
+		<itemExit>Thoát</itemExit>
+		<itemSensorBased>Theo cảm biến</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Tùy chọn</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Hiện trên Tray</tabTrayIcon>
+		<tabTrayIconMac>Hiện trên Menubar</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Ngôn ngữ:</staticLanguage>
+		<checkSystemStart>Tự động khởi động ẩn với hệ thống (khuyên dùng)</checkSystemStart>
+		<checkFahrenheit>Sử dụng độ F</checkFahrenheit>
+		<checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (v.d. 45.4)</checkPrecise>
+		<staticSensor>Cảm biến:</staticSensor>
+		<staticFan>Quạt:</staticFan>
+		<staticIcon>Biểu tượng:</staticIcon>
+		<comboIconOptionShow>Hiển thị (màu)</comboIconOptionShow>
+		<comboIconOptionShowBW>Hiển thị (đen &amp; trắng)</comboIconOptionShowBW>
+		<comboOptionNone>Không</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(Chỉ Độ C)</staticCelsiusOnlyOnWindows>
+		<checkLog>Bật ghi chú (yêu cầu khởi động lại)</checkLog>
+		<browseLog>Duyệt..</browseLog>
+		<buttonCopyTechInfo>Sao chép thông tin kỹ thuật</buttonCopyTechInfo>
+		<copyInfoMessage>Thông tin kỹ thuật đã được sao chép vào clipboard</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Giới thiệu Macs Fan Control</title>
+		<staticTechnicalSupport>Hỗ trợ kỹ thuật trên diễn đàn</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>ỨNG DỤNG CHỈ NÊN SỬ DỤNG BỞI NHỮNG NGƯỜI BIẾT SỬ DỤNG SAO CHO KHÔNG LÀM ẢNH HƯỞNG TỚI MÁY MAC CỦA HỌ.\nTÁC GIẢ ỨNG DỤNG KHÔNG CHỊU TRÁCH NHIỆM TRƯỚC VIỆC MẤT MÁT DỮ LIỆU, HỎNG HÓC HAY BẤT CỨ LOẠI MẤT MÁT NÀO KHI SỬ DỤNG CHƯƠNG TRÌNH</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Đã có phiên bản mới</title>
+		<staticNewVersion>Đã có phiên bản mới của ứng dụng. Hãy vào &lt;a href='website'&gt;website&lt;/a&gt; của chúng tôi để tải về phiên bản mới nhất.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>Đóng</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Hủy</buttonCancel>
+		<buttonContinue>Tiếp tục</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

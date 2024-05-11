@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.8" Author="Samer AlRubaee-Iraq">
+	<MainWindow>
+		<staticFanListHeader>Fans:</staticFanListHeader>
+		<staticSensorsListHeader>مستشعرات درجة الحرارة:</staticSensorsListHeader>
+		<listColumnFan>المروحه</listColumnFan>
+		<listColumnRPM>Min/Current/Max RPM</listColumnRPM>
+		<listColumnControl>التحكم</listColumnControl>
+		<listColumnSensor>الحساس</listColumnSensor>
+		<listColumnSensorValue>القيمه</listColumnSensorValue>
+		<listSeparatorDrives>القرص الصلب:</listSeparatorDrives>
+		<popupMenuItemControl>تغيير طريقة التحكم</popupMenuItemControl>
+		<popupMenuItemReset>اعادة طريقة التحكم الى الطريقة الافتراضية</popupMenuItemReset>
+		<fanControlAutomatic>تلقائي</fanControlAutomatic>
+		<fanControlAutomaticInfo>تلقائي(بواسطة النظام)</fanControlAutomaticInfo>
+		<fanControlConstant>قيمة ثابته of %1</fanControlConstant>
+		<fanControlSensor>على أساس %1</fanControlSensor>
+		<fanControlUnknown>غير معروف!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>تصغير</buttonMinimize>
+		<buttonMinimizeMac>اخفاء الى شريط القائمة</buttonMinimizeMac>
+		<buttonPreferences>التفضيلات</buttonPreferences>
+		<buttonAbout>حول…</buttonAbout>
+		<statusMoreApps>%1 اصدار &amp; تطبيقات اخرى</statusMoreApps>
+		<statusNonAppleFSWarningMac>نمط القراءة فقط: تم اكتشاف ملف ليس من آبل (%1). حاول نقل التطبيق الى '/Applications'?</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>غير قادر على الوصول الى SMC خدمة. على الارجح انها تستخدم بواسطة برنامج اخر للتحكم بالمروحه .</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>ضبط المروحة %1</title>
+		<radioConstant>مقدار ثابت لعدد دورات المروحة</radioConstant>
+		<radioSensor>حسب حساس درجة الحرارة</radioSensor>
+		<staticIncrease>درجة الحرارة التي منها تبدأ المروحة زيادة سرعتها:</staticIncrease>
+		<staticMax>درجة الحرارة القصوى:</staticMax>
+		<statusWarning>خطأ ما - دنيا/قصوى قيمة المروحة على حد سواء (%1).&lt;br/&gt; رجاءا تأكد من حذف اي برنامج آخر يتحكم بالمروحه او حاول ان تعمل reset SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>اظهار نافذة البرنامج</itemShow>
+		<itemWebsite>الموقع الرسمي</itemWebsite>
+		<itemCheckForUpdates>التحقق من وجود تحديثات...</itemCheckForUpdates>
+		<itemExit>الخروج</itemExit>
+		<itemSensorBased>اساس تحكم المستشعر</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>التفضيلات</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Tray icon</tabTrayIcon>
+		<tabTrayIconMac>عرض ايقونه في شريط القائمة</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>اللغه:</staticLanguage>
+		<checkSystemStart>تشغيل تلقائي مع النظام (مستحسن)</checkSystemStart>
+		<checkFahrenheit>استخدام مقياس درجة حراره فهرنهايت</checkFahrenheit>
+		<checkPrecise>اظهار درجات الحراره الدقيقه والتفصيليه (e.g. 45.4)</checkPrecise>
+		<staticSensor>الحساس:</staticSensor>
+		<staticFan>المروحه:</staticFan>
+		<staticIcon>الايقونه:</staticIcon>
+		<comboIconOptionShow>عرض ملون</comboIconOptionShow>
+		<comboIconOptionShowBW>عرض (اسود &amp; ابيض)</comboIconOptionShowBW>
+		<comboOptionNone>لا شيء</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(مئوية فقط)</staticCelsiusOnlyOnWindows>
+		<checkLog>تمكين السجل (مطلوب اعادة التشغيل)</checkLog>
+		<browseLog>استعراض</browseLog>
+		<buttonCopyTechInfo>نسخ المعلومات التقنية</buttonCopyTechInfo>
+		<copyInfoMessage>تم نسخ المعلومات التقنية إلى الحافظة</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>حول البرنامج</title>
+		<staticTechnicalSupport>الدعم الفني على المنتدى</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>هذا البرنامج هو للمستخدمين المتقدمين الذين يعرفون كيفية استخدام تكنولوجيا المعلومات من دون الحاق الضرر بالماك . المؤلفون ليسو مسؤولين عن فقدان البيانات، والأضرار أو أية أنواع أخرى من خسائر متصلة مع استخدام أو سوء استخدام للبرنامج‫.‬تحيات معرب البرنامج سامر العراقي</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - اصدار جديد متوفر حاليا</title>
+		<staticNewVersion>النسخة الجديدة من البرنامج متاح حاياً. يرجى زيارة موقعنا على &lt;a href='website'&gt;website&lt;/a&gt; من اجل احدث اصدار.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>اغلاق</buttonClose>
+		<buttonOK>موافق</buttonOK>
+		<buttonCancel>الغاء</buttonCancel>
+		<buttonContinue>استمرار</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>

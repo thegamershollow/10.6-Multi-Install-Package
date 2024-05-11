@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.8" Author="Peter Šifalovič">
+	<MainWindow>
+		<staticFanListHeader>Ventilátory:</staticFanListHeader>
+		<staticSensorsListHeader>Teplotné senzory:</staticSensorsListHeader>
+		<listColumnFan>Ventilátor</listColumnFan>
+		<listColumnRPM>Min/Aktuálne/Max otáčky</listColumnRPM>
+		<listColumnControl>Ovládanie</listColumnControl>
+		<listColumnSensor>Senzory</listColumnSensor>
+		<listColumnSensorValue>Hodnota</listColumnSensorValue>
+		<listSeparatorDrives>Diskové jednotky:</listSeparatorDrives>
+		<popupMenuItemControl>Zmeniť ovládanie...</popupMenuItemControl>
+		<popupMenuItemReset>Obnoviť automatickú kontrolu</popupMenuItemReset>
+		<fanControlAutomatic>Automaticky</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatic (controlled by system)</fanControlAutomaticInfo>
+		<fanControlConstant>Konštantná hodnota %1</fanControlConstant>
+		<fanControlSensor>Založené na %1</fanControlSensor>
+		<fanControlUnknown>Neznáme!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimimalizovať</buttonMinimize>
+		<buttonMinimizeMac>Schovať do toolbar lišty</buttonMinimizeMac>
+		<buttonPreferences>Nastavenia...</buttonPreferences>
+		<buttonAbout>Informácie o...</buttonAbout>
+		<statusMoreApps>%1 verzia &amp; viac aplikácií</statusMoreApps>
+		<statusNonAppleFSWarningMac>Mód iba na čítanie: zistený iný súborový systém ako Apple (%1). Presunuli ste aplikáciu do /Aplikácie ?</statusNonAppleFSWarningMac>
+		<messageUnableToAccessSMC>Nie je možné získať výhradný prístup k SMC službe. S najväčšou pravdepodobnosťou je používaná inou (ventilátor ovládajúcou) aplikáciou.</messageUnableToAccessSMC>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Ovládanie ventilátora %1 ventilátor</title>
+		<radioConstant>Konštantná hodnota otáčok</radioConstant>
+		<radioSensor>Hodnoty založené na senzoroch</radioSensor>
+		<staticIncrease>Hodnota teploty, od ktorej začne pracovať ventilátor:</staticIncrease>
+		<staticMax>Maximálna teplota:</staticMax>
+		<statusWarning>Niečo je zle - Min./Max. hodnoty ventilátora sú totožné (%1).&lt;br/&gt; Uistite sa, či ste odinštalovali akékoľvek iné programy na ovládanie ventilátorov a resetujte SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Zobraziť Macs Fan Control</itemShow>
+		<itemWebsite>Webstránka</itemWebsite>
+		<itemCheckForUpdates>Skontrolovať dostupné aktualizácie...</itemCheckForUpdates>
+		<itemExit>Ukončiť</itemExit>
+		<itemSensorBased>Založené na snímači:</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Nastavenia</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Tray ikona</tabTrayIcon>
+		<tabTrayIconMac>Zobraziť ikonu v menu lište</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Jazyk:</staticLanguage>
+		<checkSystemStart>Automaticky spustiť pri štarte systému (odporúčané)</checkSystemStart>
+		<checkFahrenheit>Použiť teplotnú stupnicu Fahrenheit</checkFahrenheit>
+		<checkPrecise>Zobraziť detailnú teplotu, ak je to možné (napr. 45.4)</checkPrecise>
+		<staticSensor>Snímač:</staticSensor>
+		<staticFan>Ventilátor:</staticFan>
+		<staticIcon>Ikona:</staticIcon>
+		<comboIconOptionShow>Zobraziť</comboIconOptionShow>
+		<comboIconOptionShowBW>Zobraziť (čierna &amp; biela)</comboIconOptionShowBW>
+		<comboOptionNone>Žiadna ikona</comboOptionNone>
+		<staticCelsiusOnlyOnWindows>(iba pre stupne Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Umožniť vytvorenie logovacieho záznamu (vyžadovaný reštart)</checkLog>
+		<browseLog>Prehliadať</browseLog>
+		<buttonCopyTechInfo>Skopírovať technické informácie</buttonCopyTechInfo>
+		<copyInfoMessage>Technické informácie sú skopírované do schránky</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>O Macs Fan Control</title>
+		<staticTechnicalSupport>Technická podpora na našom diskusnom fóre</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>TENTO PROGRAM JE PRE SKÚSENÝCH POUŽÍVATEĽOV, KTORÍ HO VEDIA POUŽIŤ BEZ POŠKODENIA SVOJHO POČÍTAČA MAC. AUTORI PROGRAMU NIE SU ZODPOVEDNÍ ZA STRATU DÁT, ŠKODY,STRATU ZISKU ALEBO AKÝKOĽVEK INÝ TYP STRATY SPOJENEJ S POUŽÍVANÍM TOHOTO PROGRAMU!</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Je dostupná nová verzia</title>
+		<staticNewVersion>Nová verzia programu je dostupná. Navštívte prosím našu stránku &lt;a href='website'&gt;website&lt;/a&gt; pre získanie najnovšej verzie.</staticNewVersion>
+	</NewVersionDialog>
+	<Common>
+		<buttonClose>Zavrieť</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Zružiť</buttonCancel>
+		<buttonContinue>Pokračovať</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+</LanguageStrings>
