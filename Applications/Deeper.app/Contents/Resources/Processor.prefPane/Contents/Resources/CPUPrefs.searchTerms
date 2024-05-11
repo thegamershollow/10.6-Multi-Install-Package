@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Main</key>
+	<dict>
+		<key>localizableStrings</key>
+		<array>
+			<dict>
+				<key>index</key>
+				<string>nap energy power</string>
+				<key>title</key>
+				<string>Allow Nap</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>core bus frequency speed hz mhz</string>
+				<key>title</key>
+				<string>Frequency</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>l1 l2 l3 cache</string>
+				<key>title</key>
+				<string>Cache</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>altivec vmx velocity engine</string>
+				<key>title</key>
+				<string>Vector</string>
+			</dict>
+			<dict>
+				<key>index</key>
+				<string>hyperthread thread ht</string>
+				<key>title</key>
+				<string>Hyper-Threading</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
