@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary title="Alfred 2">
+	
+	<suite name="Alfred 2 Suite" code="Alf2" description="Alfred 2 Scripts">
+		
+		<command name="search" code="alf2Sear" description="Show Alfred 2 with the given text">
+			<cocoa class="AlfredAppleScriptCommandSearch"/>
+			<direct-parameter type="text" optional="yes" description="The search string to populate Alfred with"/>
+		</command>
+		
+		<command name="run trigger" code="alf2Runt" description="Run Alfred 2 workflow trigger">
+			<cocoa class="AlfredAppleScriptCommandRun"/>
+			
+			<direct-parameter type="text" optional="yes" description=""/>
+			
+			<parameter name="in workflow" code="work" type="text" optional="no" description="The workflow bundle identifer">
+				<cocoa key="workflow"/>
+			</parameter>
+			
+			<parameter name="with argument" code="argu" type="text" optional="yes" description="An optional argument">
+				<cocoa key="argument"/>
+			</parameter>
+			
+		</command>
+		
+		<command name="set theme" code="alf2Thea" description="Change theme in Alfred 2">
+			<cocoa class="AlfredAppleScriptCommandChangeTheme"/>
+			<direct-parameter type="text" optional="no" description="The name of the theme to switch to"/>
+		</command>
+		
+	</suite>
+	
+</dictionary>

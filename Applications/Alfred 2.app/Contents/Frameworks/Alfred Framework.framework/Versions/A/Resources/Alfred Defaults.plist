@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>hotkey.default</key>
+	<dict>
+		<key>key</key>
+		<integer>49</integer>
+		<key>mod</key>
+		<integer>524288</integer>
+		<key>string</key>
+		<string>Space</string>
+	</dict>
+	<key>features.defaultresults.scope</key>
+	<array>
+		<string>/Applications</string>
+		<string>/Applications/Xcode.app/Contents/Applications</string>
+		<string>/Developer/Applications</string>
+		<string>/Library/PreferencePanes</string>
+		<string>/System/Library/CoreServices/Applications</string>
+		<string>/System/Library/PreferencePanes</string>
+		<string>~/Library/Caches/Metadata</string>
+		<string>~/Library/PreferencePanes</string>
+		<string>~/Library/Mobile Documents</string>
+		<string>/usr/local/Cellar</string>
+		<string>/opt/homebrew-cask/Caskroom</string>
+	</array>
+	<key>features.defaultresults.scope.includehome</key>
+	<true/>
+	<key>features.filenavigation.customhomefolder.enabled</key>
+	<false/>
+	<key>features.filenavigation.customhomefolder.path</key>
+	<string></string>
+	<key>features.filesearch.actions.recentfolders</key>
+	<array>
+		<string>~/Documents</string>
+		<string>~/Desktop</string>
+		<string>/Applications</string>
+	</array>
+	<key>features.clipboard.enabled</key>
+	<false/>
+	<key>features.1password.enabled</key>
+	<false/>
+	<key>features.1password.discoverkeychain</key>
+	<true/>
+	<key>features.1password.keychainpath</key>
+	<string></string>
+	<key>workflows.sortLastModified</key>
+	<false/>
+	<key>workflows.onlyShowEnabled</key>
+	<false/>
+	<key>workflows.showCreator</key>
+	<true/>
+	<key>workflows.showHotkeys</key>
+	<false/>
+	<key>workflows.showCategories</key>
+	<false/>
+	<key>appearance.theme</key>
+	<string>alfred.theme.yosemite</string>
+	<key>appearance.screen</key>
+	<integer>0</integer>
+	<key>logging</key>
+	<integer>0</integer>
+	<key>invalidateShadowOnLowAlphaThemes</key>
+	<false/>
+	<key>windowBlur</key>
+	<integer>0</integer>
+	<key>prereleases</key>
+	<integer>0</integer>
+	<key>useproxy</key>
+	<false/>
+</dict>
+</plist>

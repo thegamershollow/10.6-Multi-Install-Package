@@ -1,0 +1,21 @@
+-- Copyright 2014 Running with Crayons. All rights reserved.
+
+-- Send an email with an attachment
+on send_email_with_attachment(ename, eemail, esubject, ebody, eattachment)
+	tell application "Mail"
+		activate
+		
+		set theMessage to make new outgoing message with properties {visible:true, subject:esubject, content:ebody}
+		tell theMessage
+			make new to recipient at end of to recipients with properties {name:ename, address:eemail}
+		end tell
+		tell theMessage
+			repeat with aattachment in eattachment
+				set filefn to (POSIX file aattachment) as Unicode text
+				tell content
+				  make new attachment with properties {file name:filefn as alias} at after last paragraph
+				end tell
+			end repeat
+		end tell
+	end tell
+end send_email_with_attachment
