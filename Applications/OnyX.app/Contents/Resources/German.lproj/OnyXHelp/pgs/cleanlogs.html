@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Protokolle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="logs, CrashReporter"/>
+<meta name="description" content="Cleaning the Logs and CrashReporter"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Start</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Index</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Protokolle</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+When an application is open, many messages are run between the application, the system, and its components. This information is stored in log files. The system also creates logs and archives them during system maintenance operations. When an application does not respond, the details are saved in a diagnostic report that you can use to diagnose the problem, or you can send to the developer (if asked to do so).<br /><br />You can use the Automation pane to remove all logs and diagnostic reports except the OnyX, bash, and System Software Update Logs.<br /><br />You can use the Logs tab of the Cleaning pane to individually delete the logs and diagnostic reports.</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Protokolle:</strong> This option deletes the applications Logs, Terminal Command Log, and some System Logs.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Software-Update-Protokolle:</strong> You can delete the preference list files that contains the Software Update log using this option. This file (InstallHistory.plist) is located in the /Library/Receipts/ folder and can viewed in the Software Update preferences pane (Installed Updates tab).</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>bash Log:</strong> You can delete the log that contains the list of commands entered in Terminal using this option.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Archivierte Protokolle:</strong> When the periodic scripts (daily, weekly, and monthly) are run, log files are archived and compressed. There may be up to seven archives per log. You can remove all of the compressed archives and some System-saved logs using this option.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Aufgezeichnete Chats der Messenger:</strong> This option removes the saved conversations of the most popular Instant Messaging applications. Supported applications: Adium, AIM, aMSN, Colloquy, Conversation, Fire, iChat, iRC, JBuddyMessenger, jIRCii, MacOSX.com Chat, MChat, Microsoft Messenger, Minerva, Proteus, Psi, Skype, Snak, SnapTalk, Trillian, VChat, X-Chat Azure, and Yahoo! Messenger.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>User Diagnostic Reports:</strong> You can use this option to delete all User Diagnostic Reports. The daily maintenance script also deletes these files, but only those that have not been modified in the last 60 days. Any web browser creates a FullCircle folder with two files: manifest.ini and permdata.box. These files can be sent when a browser quits unexpectedly and will be used by developers to diagnose and correct the cause of the problem. Each new version adds a new folder--making the previous one outdated. This option deletes the FullCircle folder located in the /Library/Application Support folder in your home folder.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>System Diagnostic Reports:</strong> This option deletes any Diagnostic Reports created by the system, and relaunches the syslogd daemon (process that records the activities of the system).</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Mobile Devices CrashReporter:</strong> This option deletes any Diagnostic Reports that have occurred on your mobile device.</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

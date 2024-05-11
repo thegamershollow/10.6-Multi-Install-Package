@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Logs</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="logs, CrashReporter"/>
+<meta name="description" content="Cleaning the Logs and CrashReporter"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Início</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Índice</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Logs</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+Quando um aplicativo está aberto, várias mensagens são trocadas entre ele, o sistema e seus componentes. Essa informação é armazenada em arquivos log. O sistema também cria logs e os arquiva durante as operações de manutenção. Quando um aplicativo não responde, detalhes são salvos em informes de diagnóstico que você pode usar para detectar o problema ou para enviá-lo a um desenvolvedor (caso lhe peçam).<br /><br />a partir do painel Automação, é possível remover todos os logs e informes de diagnóstico, exceto os logs OnyX, bash e de Atualização do Sistema.<br /><br />a partir da aba Logs, no painel Limpeza, é possível apagar diversos logs e informes de diagnóstico individualmente.</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Arquivos de Log:</strong> essa opção apaga os logs dos aplicativos, de comandos do Terminal e alguns logs do Sistema.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Log de Atualização de Software da Apple:</strong> é possível apagar o arquivo de preferência que contém o log das Atualizações do Sistema usando essa opção. Esse arquivo (InstallHistory.plist) está localizado na pasta /Biblioteca/Receipts/ e pode ser visualizado nas Preferências do Sistema em "Atualização de Software" (aba Software Instalado).</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Log de bash:</strong> é possível eliminar esse log, que contém uma lista com os comandos executados no Terminal, com essa opção.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Logs Arquivados do Sistema:</strong> ao executar os scripts periódicos (diário, semanal e mensal), logs são arquivados e comprimidos. Pode haver até sete arquivos por log. É possível remover todos os arquivos comprimidos e alguns logs salvos pelo Sistema usando essa opção.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Logs de mensagem instantânea:</strong> essa opção remove conversas salvas pelos aplicativos de mensagem instantânea mais populares. Suporte aos aplicativos: Adium, AIM, aMSN, Colloquy, Conversation, Fire, iChat, iRC, JBuddyMessenger, jIRCii, MacOSX.com Chat, MChat, Microsoft Messenger, Minerva, Proteus, Psi, Skype, Snak, SnapTalk, Trillian, VChat, X-Chat Azure e Yahoo! Messenger.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Informes de Uso do Usuário:</strong> use essa opção para apagar todos os Informes de Uso do Usuário. O script de manutenção também elimina esses arquivos, porém somente aqueles que não foram modificados nos últimos 60 dias.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Informes de Uso do Sistema:</strong> essa opção apaga todos os Informes de Uso do Sistema e reinicia o syslogd deamon (processo responsável por gravar atividades do sistema).</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>CrashReports de Aparelhos Móveis:</strong> essa opção elimina todos os Informes de Uso relatados pelos seus dispositivos móveis.</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

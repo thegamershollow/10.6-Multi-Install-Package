@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="logs, CrashReporter"/>
+<meta name="description" content="Cleaning the Logs and CrashReporter"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Ana Sayfa</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Dizin</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Log</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+Bir uygulama çalışırken uygulamanın kendisi, sistem ve bileşenleri arasında pekçok mesaj alışverişi olur. Bu bilgi Log dosyalarında saklanır. Sistem ayrıca Bakım operasyonları sırasında log ve arşivler yaratır. Bir uygulama donduğunda, sorunun detayları daha sonra bakıp sorunu çözmekte kullanabileceğiniz ya da mümkünse geliştiriciye gönderebileceğiniz bir teşhis raporunda saklanır.<br /><br />Otomatikleştir paneli bütün log ve teşhis raporlarını silmenizi sağlar dışında OnyX, bash ve Yazılım Güncelleştirme Log'ları.<br /><br />Temizlik panelinin Log'lar sekmesi bunları tek tek silebilmenize olanak verir.</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Log Dosyaları:</strong> Bu seçenek uygulama Log'larını, Terminal komut log'larını ve bazı Sistem Log'larını siler.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Yazılım Güncelleştirme Log'u:</strong> Bu seçenek Apple Yazılım Güncelleştirme log dosyasını siler. Bu dosya (InstallHistory.plist) /Library/Receipts/ klasöründe bulunur ve Yazılım Güncelleştirme tercih panelinde Yüklü Güncelleştirmeler sekmesinde görülebilir.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>bash Log:</strong> Bu seçenek Terminal'de girilmiş komutların listesini içeren log'u silmenizi sağlar.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Arşivlenmiş Sistem Log'ları:</strong> Periyodik bakım betikleri (günlük, haftalık ve aylık) çalıştığında log dosyaları arşivlenir ve sıkıştırılır. Log başına 7 adede kadar arşiv bulunabilir. Bu seçenek bütün sıkıştırılmış arşivleri ve bazı Sistem log'larını silmenizi sağlar.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Anında mesajlaşma log'ları:</strong> Bu seçenek en popüler anında mesajlaşma yazılımlarının kayıtlı konuşmalarını siler. Desteklenen uygulamalar: Adium, AIM, aMSN, Colloquy, Conversation, Fire, iChat, iRC, JBuddyMessenger, jIRCii, MacOSX.com Chat, MChat, Microsoft Messenger, Minerva, Proteus, Psi, Skype, Snak, SnapTalk, Trillian, VChat, X-Chat Azure ve Yahoo! Messenger.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Kullanıcı Teşhis Raporları:</strong> Bu seçenek bütün Kullanıcı Teşhis Raporlarını siler. Günlük bakım script'i de bu dosyaları siler, ama yalnızca son 60 gün içinde değiştirilmemiş olanları. Ayrıca /Library/Logs/CrashReporter klasöründeki çökme raporlarını da siler. Bütün Web tarayıcılar şu iki dosya içeren bir FullCircle klasörü yaratır: manifest.ini ve permdata.box. Bu dosyalar web tarayıcı çöktüğünde gönderilir ve geliştiricilerin sorunları teşhis edebilmesine yardımcı olur. Her bir yeni sürüm, bir önceki sürümün yarattığı klasörü gereksiz kılar. Bu seçenek kullanıcının Ana klasöründe /Library/Application Support altındaki FullCircle klasörünü siler.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Sistem Teşhis Raporları:</strong> Bu seçenek sistem tarafından yaratılan bütün Teşhis Raporlarını siler ve syslogd daemon'u (sistemin etkinliklerini kaydeden işlem) yeniden başlatır.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Mobil Cihazların CrashReporter'ı:</strong> Bu seçenek Mobil Cihazınızdaki Teşhis Raporlarını siler.</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

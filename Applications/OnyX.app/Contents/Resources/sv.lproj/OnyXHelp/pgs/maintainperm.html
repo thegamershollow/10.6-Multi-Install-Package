@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Reparera skivbehörigheter</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="verify, repair, permissions"/>
+<meta name="description" content="Verifying and Repairing the Permissions"/>
+<link href="../sty/task_numbered.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Startsida</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Index</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Reparera skivbehörigheter</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">Mac OS X innehåller ett undersystem baserat på UNIX. I detta system så har varje fil och mapp på din hårddisk behörigheter tilldelade till sig som bestämmer vem som kan läsa, skriva eller exekvera.<br /><br />Många objekt du installerar i Mac OS X installeras från paketfiler (.pkg). Varje gång något installeras från ett paket, skapas och lagras en fil (.bom) i systemet eller i en receptfil (.pkg). Varje .bom fil innehåller en lista av filer som installerades av det paketet och de korrekta behörigheterna för varje fil. <br /><br />När du använder OnyX för att kontrollera och reparera skivbehörigheter, så kollas varje .bom fil och jämför dess lista med de aktuella behörigheterna för varje listad fil. Om behörigheterna inte matchar, så korrigerar OnyX detta. Om du tar bort recept eller .bom filer från /Library/Reciepts/, så kan inte filerna som paketet installerat verifieras eller repareras. Därför bör du inte radera filer från /Library/Reciepts/. <br /><br />OnyX reparerar behörigheterna för dessa filer men reparerar inte behörigheter för dokument i din hemmapp.</p>
+</div>
+</div>
+
+<!-- RÉPARER LES PERMISSIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+<h2>För att reparera behörigheter:</h2>
+
+<!-- ETAPE 1 -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_1.gif" alt="" class="bullet1"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Kör OnyX, mata in ditt administratörslösenord.</p>
+</div>
+</div>
+
+<!-- ETAPE 2 -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_2.gif" alt="" class="bullet2"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Öppna panelen "Underhåll" och klicka på fliken "Skivbehörigheter".</p>
+</div>
+</div>
+
+<!-- ETAPE 3 -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_3.gif" alt="" class="bullet3"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Klicka på knappen Genomför.</p>
+</div>
+</div>
+
+<p class="taskprimtextlongtext">När reparationen är genomförd, så visas resultatet i textfältet för detta ändamål. Generellt sett, så är varningsmeddelandena bara informationsmeddelanden. Felaktiga behörigheter som inte reparerats har ingen inverkan på din dators funktion.</p> 
+<p><a href="http://support.apple.com/kb/TS1448?viewlocale=sv_SE" class="weblink">• Meddelanden som du kan ignorera</a></p>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+<!-- BAS DE PAGE -->
+<div id="outrobox">
+<div class="outroprimtext">
+<p class="outroprimtextlongtext">
+Notera: Panelen Automatisera tillåter dig också att reparera skivbehörigheter men visar inte resultatet.</p>
+</div>
+</div>
+
+</body>
+</html>

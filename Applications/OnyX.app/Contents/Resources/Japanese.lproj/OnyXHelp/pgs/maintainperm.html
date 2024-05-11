@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Verify and Repair Permissions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="verify, repair, permissions"/>
+<meta name="description" content="Verifying and Repairing the Permissions"/>
+<link href="../sty/task_numbered.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">ホーム</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">索引</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Verify and Repair Permissions</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">Mac OS X incorporates a subsystem based on a UNIX-style operating system. In this kind of system, every file and folder on your hard disk has an associated set of permissions that determines who can read, write to, or execute it.<br /><br />Many things you install in Mac OS X are installed from package files (.pkg ). Each time something is installed from a package, a file (.bom) is stored in a folder of the System or in a receipt file (.pkg). Each of those .bom files contains a list of the files installed by that package, and the correct permissions for every file. <br /><br />When you use OnyX to verify and repair disk permissions, it reviews every .bom file and compares its list to the actual permissions of each listed file. If the permissions differ, OnyX corrects the difference. If you remove receipts or .bom files from /Library/Receipts/, the files installed by the packages can neither be verified nor repaired. This is why you should not delete things from /Library/Receipts/. <br /><br />OnyX repairs the permissions of these files but will not repair the permissions of the documents in your home folder.</p>
+</div>
+</div>
+
+<!-- RÉPARER LES PERMISSIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+<h2>To repair the permissions:</h2>
+
+<!-- ETAPE 1 -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_1.gif" alt="" class="bullet1"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Open OnyX. It will ask for your administrator password.</p>
+</div>
+</div>
+
+<!-- ETAPE 2 -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_2.gif" alt="" class="bullet2"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Open the Maintenance pane, and click the "Permissions" tab.</p>
+</div>
+</div>
+
+<!-- ETAPE 3 -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+<img src="../gfx/step_3.gif" alt="" class="bullet3"/>
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext">
+Click the Execute button.</p>
+</div>
+</div>
+
+<p class="taskprimtextlongtext">After the repair is completed, the result will appear in the text field present for this purpose. Generally, alerts that appear are only informational messages. Incorrect permissions that were not repaired will have no consequence on the functioning of your computer.</p> 
+<p><a href="http://support.apple.com/kb/TS1448?viewlocale=ja_JP" class="weblink">• 無視しても構わないメッセージが表示される</a></p>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+<!-- BAS DE PAGE -->
+<div id="outrobox">
+<div class="outroprimtext">
+<p class="outroprimtextlongtext">
+Note: You can use the Automation pane to repair permissions, but the result will not appear.</p>
+</div>
+</div>
+
+</body>
+</html>

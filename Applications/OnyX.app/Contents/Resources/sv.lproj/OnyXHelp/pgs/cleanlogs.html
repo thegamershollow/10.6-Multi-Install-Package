@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Loggar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="logs, CrashReporter"/>
+<meta name="description" content="Cleaning the Logs and CrashReporter"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Startsida</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Index</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Loggar</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+När ett program körs så skapas många meddelanden mellan programmet, systemet och dess komponenter. Denna information lagras i loggar. Systemet skapar också loggar och arkiverar dem vid systemunderhåll. När ett program krashar sparas information om detta i en diagnostisk rapport som du kan använda för att diagnostisera problemet eller skicka till utvecklaren (om tillfrågad).<br /><br />Panelen Automatisera tillåter dig att radera alla loggar och diagnostiska rapporter utom för OnyX, bash och loggarna för systemets programuppdatering.<br /><br />Loggfliken i panelen Rensa tillåter dig att radera dem individuellt.</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Loggar:</strong> Detta val raderar loggarna för program, terminalen och vissa systemloggar.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Programuppdaterings logg:</strong> Detta val raderar loggfilen för Apple programuppdatering. Denna logg (InstallHistory.plist) finns i /Library/Receipts mappen och kan ses i "programuppdatering" inställningspanelen i fliken "installerade uppdateringar".</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>bash logg:</strong> Detta val raderar loggen för inmatade kommandon i Terminal programmet.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Arkiverade loggar:</strong> När underhållsskripten (dagligen, veckovis och månadsvis) körs, arkiveras och komprimeras loggar. Det kan vara upp till sju arkiv per logg. Detta val raderar alla komprimerade arkiv och vissa loggar sparade av systemet.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Konversations-loggar från chat-program:</strong> Detta val raderar sparade konversationer för de populäraste chat programmen. Program som stöds: Adium, AIM, aMSN, Colloquy, Conversation, Fire, iChat, iRC, JBuddyMessenger, jIRCii, MacOSX.com Chat, MChat, Microsoft Messenger, Minerva, Proteus, Psi, Skype, Snak, SnapTalk, Trillian, VChat, X-Chat Azure och Yahoo! Messenger.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Användardiagnostiska rapporter:</strong> Detta val raderar alla användardiagnostiska rapporter. Det dagliga underhållsskriptet radera också dessa filer men endast de som inte har ändrats de senaste 60 dagarna.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Systemdiagnostiska rapporter:</strong> Detta val raderar diagnostiska rapporter skapade av systemet och startar om syslogd daemon (process som övervakar systemets aktiviteter).</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Krashrapporter för mobila enheter:</strong> Detta val raderar de diagnostiska rapporter som har uppstått på din mobila enhet.</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

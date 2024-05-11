@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Registres</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="logs, CrashReporter"/>
+<meta name="description" content="Cleaning the Logs and CrashReporter"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Inici</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Índex</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Registres</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+Quan una aplicació està executant-se, aquesta envia missatges entre l'aplicació, el sistema i els seus components. Aquestes informacions són emmagatzemades en els fitxers de registre. El Sistema també crea registres i arxius propis durant les operacions de manteniment. Quan una aplicació es bloqueja, els detalls són guardats en uns informes de diagnòstic que podeu utilitzar per diagnosticar els problemes, o per enviar (si cal) al desenvolupador.<br /><br />El panell Automatització li permet esborrar tots els registres i informes de diagnòstic amb excepció dels registres d'OnyX, bash i d'Actualització de Software.<br /><br />La pestanya Registres de la consola Neteja li permet esborrar-los de forma independent.</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Fitxers Registre:</strong> Aquesta opció esborra els registres d'aplicacions, Registre del Terminal de shell i alguns registres de Sistema.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registre d'Actualització de Software:</strong> Aquesta opció us permet esborrar el registre que conté les actualitzacions de programari d'Apple instal·lat. Aquest registre (InstallHistory.plist) està ubicat a la carpeta /Library/Receipts/ i es pot veure en el panell de Preferències "Actualització de Software" (pestanya Actualitzacions instal·lades).</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registre bash:</strong> Aquesta opció us permet esborrar el registre que conté el llistat d'ordres introduïdes en el terminal.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registres arxius de sistema:</strong> Quan els scripts diaris (diari, setmanal i mensual) s'executen, els fitxers de registre s'arxiven i es comprimeixen. Poden haver fins a 7 arxius per registre. Aquesta opció li permet eliminar tots els arxius comprimits i alguns registres guardats del Sistema.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registre de converses de missatgeria instantània:</strong> Aquesta opció esborra les converses guardades de les principals aplicacions de missatgeria instantània. Aplicacions suportades: Adium, AIM, aMSN, Colloquy, Conversation, Fire, iChat, iRC, JBuddyMessenger, jIRCii, MacOSX.com Chat, MChat, Microsoft Messenger, Minerva, Proteus, Psi, Skype, Snak, SnapTalk, Trillian, VChat, X-Chat Azure i Yahoo! Messenger.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Informes de diagnòstic d'usuari:</strong> Aquesta opció us permet esborrar tots els informes de diagnòstic d'usuari. L'script de manteniment diari també esborra aquests fitxers, però únicament aquells que no s'han modificiar en els últims 60 dies. Molts navegadors web (Mozilla, Camino, Firefox ...) creen una carpeta FullCircle amb dos fitxers: manifest.ini i permdata.box. Aquests fitxers poden ser enviats després d'un error en el navegador per a ser usats pels desenvolupadors a aïllar i corregir la causa del problema. Cada nova versió afegeix una nova carpeta deixant obsoletes les anteriors. Per tant aquesta opció esborra la carpeta FullCircle ubicada a la carpeta /Library/Application Support/ de la seva carpeta Inici.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Informes de diagnòstic del sistema:</strong> Aquesta opció esborra els possibles Informes de diagnòstic creats pel sistema i reinicia el dimoni syslogd (procés que grava les activitats del sistema).</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Informes de diagnòstic de Dispositius Mòbils:</strong> Aquesta opció esborra els possibles Informes de diagnòstic que se han producido en su dispositivo móvil.</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>日志</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="logs, CrashReporter"/>
+<meta name="description" content="Cleaning the Logs and CrashReporter"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">主页</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">索引</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>日志</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+当应用程序运行时，会在程序、系统及其组件之间发送消息。这些信息存储在日志文件中。系统也在维护操作时创建日志和和归档。当程序无响应时，存储在日志文件的详细信息将可用于您诊断问题，或发送给开发者 (如果有必要)。<br /><br />自动执行面板允许您移除全部的日志和崩溃报告 (除了 OnyX、bash 和系统软件更新日志)。<br /><br />清理面板的日志标签页可以分别删除它们。</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>日志文件：</strong>此操作删除应用程序日志、终端命令日志和一些系统日志。</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>软件更新日志：</strong>此选项允许您删除包含 Apple 内建程序更新内容的日志文件。该日志 (InstallHistory.plist) 位于 /Library/Receipts/ 文件夹并可以在系统偏好设置面板的 "软件更新" 中查看 (已安装的更新)。</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>bash 日志：</strong>此选项允许您删除包含了终端中输入命令的列表日志。</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>系统归档日志：</strong>当例行脚本 (每天，每周和每月) 运行时，日志文件 (位于 /private/var/log/ 文件夹及其 httpd、ppp、samba 和 fax 文件夹) 将被压缩并归档。每个日志最大 7 个归档。此选项允许你移除所有压缩的归档以及一些系统存储日志。</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>即时通信的聊天记录：</strong>此选项可删除主要即时通信软件存储的聊天记录。支持的程序：Adium、AIM、aMSN、Colloquy、Conversation、Fire、iChat、iRC、JBuddyMessenger、jIRCii、MacOSX.com Chat、MChat、Microsoft Messenger、Minerva、Proteus、Psi、Skype、Snak、SnapTalk、Trillian、VChat、X-Chat Azure 和 Yahoo! Messenger。</p>
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>用户诊断报告：</strong>此选项允许您删除用户的诊断报告。每日维护脚本也会删除这些文件，但只删除 60 天以来没有更改过的文件。有些网络浏览器 (Mozilla, Camino, Firefox...) 会创建一个 FullCircle 文件夹包含两个文件：manifest.ini 和 permdata.box。这些文件可在浏览器崩溃时生成回溯内容并便于开发者修正问题。每个新版本都会添加新文件夹而使旧的过期。因此该选项可删除位于 ~/Library/Application Support/ 文件夹下的 FullCircle 文件夹。</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>系统诊断报告：</strong>此选项会删除系统创建的所有诊断报告并重启 syslogd 守护程序 (处理系统的活动性记录)。</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>移动设备崩溃报告器：</strong>这个选项会删除您移动设备上产生的所有诊断报告。</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

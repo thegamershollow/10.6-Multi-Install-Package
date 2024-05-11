@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Registros</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="logs, CrashReporter"/>
+<meta name="description" content="Cleaning the Logs and CrashReporter"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Inicio</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Índice</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Registros</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+Cuando una aplicación está ejecutándose, esta envia mensajes entre la aplicación, el sistema y sus componentes. Estas informaciones son almacenadas en los ficheros de Registro. El Sistema también crea registros y archivos propios durante las operaciones de mantenimiento. Cuando una aplicación se bloquea, los detalles son guardados en un informes de diagnóstico que puede usar para diagnosticar los problemas, o para enviarlo (si es necesario) al desarrollador.<br /><br />El panel Automatización le permite borrar todos los registros e informes de diagnóstico con excepción los registros de OnyX, bash y de Actualización de Software.<br /><br />La pestaña Registros del panel Limpieza le permite borrarlos de forma independiente.</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Ficheros Registro:</strong> Esta opción borra los Registros de aplicaciones, Registro de la Terminal de Comandos y algunos Registros de Sistema.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registro de Actualización de Software:</strong> Esta opción le permite borrar el registro que contiene las actualizaciones de software de Apple instaladas. Este registro (InstallHistory.plist) está ubicado en la carpeta /Library/Receipts/ y puede ser visualizado en el panel de Preferencias "Actualización de Software" (pestaña Actualizaciones instaladas).</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registro bash:</strong> Esta opción le permite borrar el registro que contiene el listado de comandos introducidos en el Terminal.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registros Archivados de Sistema:</strong> Cuando los scripts periódicos (diario, semanal y mensual) se ejecutan, los ficheros de registro se archivan y se comprimen. Pueden haber hasta 7 archivos por registro. Esta opción le permite eliminar todos los archivos comprimidos y algunos registros guardados del Sistema.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registro de conversaciones de mensajería instantánea:</strong> Esta opción borra las conversaciones guardadas de las principales aplicaciones de Mensajería Instantánea. Aplicaciones soportadas: Adium, AIM, aMSN, Colloquy, Conversation, Fire, iChat, iRC, JBuddyMessenger, jIRCii, MacOSX.com Chat, MChat, Microsoft Messenger, Minerva, Proteus, Psi, Skype, Snak, SnapTalk, Trillian, VChat, X-Chat Azure y Yahoo! Messenger.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Informes de diagnóstico de usuario:</strong> Esta opción le permite borrar todos los informes de diagnóstico de usuario. El script de mantenimiento diario también borra estos ficheros, pero únicamente aquellos que no se han modificiado en los últimos 60 días. Muchos navegadores Web (Mozilla, Camino, Firefox...) crean una carpeta FullCircle con dos ficheros: manifest.ini y permdata.box. Estos ficheros pueden ser enviados tras un fallo en el navegador para ser usados por los desarrolladores en aislar y corregir la causa del problema. Cada nueva versión añade una nueva carpeta dejando obsoletas las anteriores. Por tanto esta opción borra la carpeta FullCircle ubicada en la carpeta /Library/Application Support/ de su carpeta Inicio.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Informes de diagnóstico del sistema:</strong> Esta opción borra los posibles Informes de diagnóstico creados por el sistema y reinicia el demonio syslogd (proceso que graba las actividades del sistema).</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Registro de fallos de dispositivos móviles:</strong> Aquesta opció esborra els possibles Informes de diagnòstic que se han producido en su dispositivo móvil.</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

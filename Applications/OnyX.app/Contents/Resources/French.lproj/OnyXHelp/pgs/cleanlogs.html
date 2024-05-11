@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Historiques</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="historiques, rapports de problèmes, cache"/>
+<meta name="description" content="Nettoyage des historiques"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Accueil</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Index</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Historiques</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+Lorsque une application est en cours d'exécution, elle envoie des messages entre les applications, les systèmes et les composants. Ces informations sont stockées dans des historiques (ou journaux des messages). Le système créé également plusieurs historiques et les archive durant les opérations de maintenance du système. Lorsqu'une application se bloque, le détail du blocage est enregistré dans un fichier d'historique (rapport de diagnostic) que vous pouvez utiliser pour diagnostiquer les problèmes liés à cette application, ou pour l'envoyer (si nécessaire) au développeur de l'application. <br /><br />Le panneau Automation vous permet de supprimer tous les historiques et rapports de diagnostic excepté l'historique d'OnyX, l'historique bash et l'historique des mises à jour Apple installées.<br /><br />L'onglet Historiques du panneau Nettoyage vous permet de les supprimer individuellement.</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Historiques :</strong> Cette option supprime les historiques des applications, l'historique des commandes de Terminal et certains historiques du Système.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Historique des mises à jour installées :</strong> Cette option permet de supprimer l'historique contenant les mises à jour Apple installées. Cet historique (InstallHistory.plist) est situé dans le dossier /Bibliothèque/Receipts/ et peut être visualisé dans le panneau des préférences Système "Mise à jour de logiciels" (onglet Mises à jour installées).</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Historique bash :</strong> Cette option permet de supprimer l'historique contenant la liste des commandes saisies dans le Terminal.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Historiques système archivés :</strong> Lors de l'exécution des scripts de maintenance (daily, weekly et monthly), les historiques sont archivés et compressés. Il peut y avoir jusqu'à 7 archives par historique. Cette option permet de supprimer toutes ces archives compressées ainsi que les sauvegardes de certains historiques système.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Historiques des conversations de messagerie instantanée :</strong> Cette option supprime les conversations enregistrées des principales applications de messagerie instantanée. Applications reconnues : Adium, AIM, aMSN, Colloquy, Conversation, Fire, iChat, iRC, JBuddyMessenger, jIRCii, MacOSX.com Chat, MChat, Microsoft Messenger, Minerva, Proteus, Psi, Skype, Snak, SnapTalk, Trillian, VChat, X-Chat Azure et Yahoo! Messenger.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Rapports de diagnostic utilisateur :</strong> Cette option permet de supprimer tous les rapports de diagnostic de l'utilisateur. Le script de maintenance quotidien (daily) supprime également ces fichiers, mais seulement ceux qui n'ont pas été modifiés depuis au moins 60 jours.  Certains navigateurs (Mozilla, Camino, Firefox...) créent un dossier nommé FullCircle contenant deux fichiers : manifest.ini et permdata.box. Ces fichiers peuvent être envoyés lors d'un crash du navigateur et seront utilisés par l'équipe de développeurs de l'application afin d'isoler et de corriger la cause du problème. Chaque nouvelle version ajoute un nouveau dossier rendant les précédents obsolètes. Cette option supprime donc ce dossier FullCircle situé dans le dossier /Bibliothèque/Application Support/ de votre répertoire de départ.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Rapports de diagnostic système :</strong> Cette option supprime les éventuels rapports de diagnostic créés par le Système et relance le démon syslogd (processus qui enregistre les activités du système).</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Rapports de diagnostic des périphériques mobiles :</strong> Cette option supprime les éventuels rapports de diagnostic qui ont eu lieu sur vos périphériques mobiles.</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

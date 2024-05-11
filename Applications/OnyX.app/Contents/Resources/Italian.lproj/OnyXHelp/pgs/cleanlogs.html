@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Resoconti</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="Resoconti, Resoconti di blocco"/>
+<meta name="description" content="Elimino i resoconti e resoconti di blocco"/>
+<link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body id="apple-pd">
+
+<!-- NAVIGATION -->
+<div id="navbox">
+<div id="navleftbox">
+<a class="navlink_left" href="../OnyXHelp.html">Inizio</a>
+</div>			
+<div id="navrightbox">
+<a class="navlink_right" href="../xpgs/xall.html">Indice</a>
+</div>
+</div>
+			
+<!-- ICONE ET TITRE -->
+<div id="headerbox">
+<div id="iconbox">
+<img id="iconimg" src="../gfx/xicnonyx.png" alt="" height="32" width="32"/>
+</div>
+<div id="pagetitle">
+<h1>Resoconti</h1>
+</div>
+</div>
+
+<!-- INTRO -->
+<div id="introbox">			
+<div class="introprimtext">
+<p class="introprimtextlongtext">
+Quando un'applicazione è in funzione, scambia messaggi con le altre applicazioni aperte, il Sistema ed i suoi componenti. Queste informazioni vengono memorizzate in documenti di resoconto (log). Anche il Sistema crea dei resoconti e li archivia durante le operazioni di manutenzione. Quando un'applicazione si blocca, informazioni dettagliate vengono salvate in un rapporti diagnostica che può essere usato per diagnosticare il problema o, (se necessario) per inviarlo allo sviluppatore. <br /><br />La finestra Automatizza permette di rimuovere tutti i resoconti e i resoconti di crash tranne i resoconti di OnyX, bash e Aggiornamento Sistema.<br /><br />Il pannello Resoconto della finestra Elimina vi permette di eliminarli singolarmente.</p>
+
+<!-- OPTIONS -->
+<div id="taskbox">
+<div class="border_top">
+<div class="border_topleft"></div>
+<div class="border_topright"></div>
+</div>
+<div class="border_left">
+<div class="border_right">
+<div class="content">
+
+<!-- HISTORIQUES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Resoconti:</strong> Questa opzione cancella i resoconti delle applicazioni, il resoconto del Terminale e alcuni resoconti di sistema.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES MAJ INSTALLEES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong> Aggiornamento Software:</strong> Questa opzione vi permette di cancellare il resoconto che contiene l'elenco degli aggiornamenti Apple. Questo resoconto (InstallHistory.plist) si trova nella cartela /Libreria/Receipts/ e può essere visionato in "Aggiornamento software" delle Preferenze di Sistema (pannello "Aggiornamenti installati").</p> 
+</div>
+</div>
+
+<!-- HISTORIQUE BASH -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>bash Log:</strong> You can delete the log that contains the list of commands entered in Terminal using this option.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES SYSTEME ARCHIVES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Resoconti archiviati:</strong> Quando vengono eseguiti gli scripts periodici (giornaliero, setimanale e mensile), i files dei recoconti vengono archiviati e compressi. Ci possono essere fino a 7 archivi per resoconto. Questa opzione permette di eliminare tutti gli archivi compressi e alcuni resoconti di Sistema.</p> 
+</div>
+</div>
+
+<!-- HISTORIQUES DES CONVERSATIONS DE MESSAGERIE INSTANTANNEE -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Resoconto conversazioni della messaggeria istantanea:</strong> Questa opzione rimuove tute le conversazioni salvate della principali applicazioni di messaggeria istantanea. Applicazioni supportate: Adium, AIM, aMSN, Colloquy, Conversation, Fire, iChat, iRC, JBuddyMessenger, jIRCii, MacOSX.com Chat, MChat, Microsoft Messenger, Minerva, Proteus, Psi, Skype, Snak, SnapTalk, Trillian, VChat, X-Chat Azure e Yahoo! Messenger.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC UTILISATEUR -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Rapporti diagnostica utente:</strong> Questa opzione permette di eliminare tutti i rapporti diagnostica utente. Anche lo script giornaliero elimina questi files, ma solo quelli che non sono stati modificati negli ultimi 60 giorni. Alcuni browser web creano una cartella FullCircle contenente due files: manifest.ini and permdata.box. Questi due files possono essere inviati in caso di crash e saranno usati dallo sviluppatore per diagnosticare e correggere la causa del problema. Ogni nuova versione aggiunge una nuova cartella rendendo la precedente obsoleta. Questa opzione cancella la cartella FullCircle situata nella cartella /Libreria/Application Support della cartella Inizio dell'utente.</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC SYSTEME -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Rapporti diagnostica sistema:</strong> Questa opzione permette di eliminare tutti i rapporti diagnostica creati dal sistema e rilanciare il demone syslogd (processo che registra l'attività del sistema).</p> 
+</div>
+</div>
+
+<!-- RAPPORTS DE DIAGNOSTIC PERIPHERIQUES MOBILES -->
+<div class="taskprimtext">
+<div class="taskprimbullet">
+■
+</div>
+<div class="taskprimcontent">
+<p class="taskprimtextlongtext"><strong>Rapporti diagnostica dispositivi mobili:</strong> This option deletes any Diagnostic Reports that have occurred on your mobile device.</p> 
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="border_bottom">
+<div class="border_bottomleft"></div>
+<div class="border_bottomright"></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

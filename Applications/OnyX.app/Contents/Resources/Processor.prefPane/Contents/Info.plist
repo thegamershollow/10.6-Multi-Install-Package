@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Processor</string>
+	<key>CFBundleIconFile</key>
+	<string>CPUPrefs</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.preference.hardware</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Processor</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.7.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>383</string>
+	<key>NSMainNibFile</key>
+	<string>CPUPrefs</string>
+	<key>NSPrefPaneIconFile</key>
+	<string>CPUPrefs.icns</string>
+	<key>NSPrefPaneIconLabel</key>
+	<string>Processor</string>
+	<key>NSPrefPaneSearchParameters</key>
+	<string>CPUPrefs</string>
+	<key>NSPrincipalClass</key>
+	<string>CPUPrefsPane</string>
+</dict>
+</plist>
