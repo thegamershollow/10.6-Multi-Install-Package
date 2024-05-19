@@ -19,6 +19,6 @@ this is a repo for a project for my macbook that allows me to use a single Mac p
 13. AnytoISO
 14. Sublime Text 2
 
-### App Used
+## App Used
 
 [Packages](http://s.sudre.free.fr/Software/Packages/about.html)
